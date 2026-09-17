@@ -1,0 +1,6758 @@
+[
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which network type is locally owned and managed by an organization and used to connect the organization's LAN together?",
+    "options": {
+      "A": "MAN",
+      "B": "CAN",
+      "C": "WAN",
+      "D": "PAN"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which network topology design has a centralized switch connecting all of the devices?",
+    "options": {
+      "A": "Star topology",
+      "B": "Full mesh topology",
+      "C": "Partial mesh topology",
+      "D": "Hybrid topology"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol can be typically found inside a PAN?",
+    "options": {
+      "A": "Bluetooth",
+      "B": "MPLS",
+      "C": "SDWAN",
+      "D": "vNIC"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When computers are logically grouped on a LAN based upon a functional department in the organization, what is the group called?",
+    "options": {
+      "A": "Backbone",
+      "B": "CAN",
+      "C": "PAN",
+      "D": "Workgroup"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is the primary benefit to using a star topology?",
+    "options": {
+      "A": "Equal access",
+      "B": "Simplicity",
+      "C": "Easy to troubleshoot",
+      "D": "Redundancy"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What type of logical connection does MPLS create to connect networks together?",
+    "options": {
+      "A": "Peer-to-peer",
+      "B": "Client-server",
+      "C": "East-west",
+      "D": "Circuit"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of network is used exclusively for storage traffic?",
+    "options": {
+      "A": "CAN",
+      "B": "SAN",
+      "C": "MAN",
+      "D": "LAN"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of traffic flow is routed from your internal network to the Internet?",
+    "options": {
+      "A": "North-south",
+      "B": "East-west",
+      "C": "WAN",
+      "D": "MAN"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which topology incorporates some redundancy of equipment and connections to provide fault tolerance but is not completely fault-tolerant?",
+    "options": {
+      "A": "Bus",
+      "B": "Mesh",
+      "C": "Ring",
+      "D": "Hybrid"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which topology should be selected if you have a central office that needs to communicate with several branch offices for WAN connectivity?",
+    "options": {
+      "A": "Point-to-point",
+      "B": "Point-to-multipoint",
+      "C": "Mesh",
+      "D": "Bus"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which network architecture allows for access or sharing of resources in a network by the same host?",
+    "options": {
+      "A": "Peer-to-peer",
+      "B": "Client-server",
+      "C": "LAN",
+      "D": "Hybrid topology"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is the major advantage of client-server network architecture?",
+    "options": {
+      "A": "Distributed security",
+      "B": "Centralized management",
+      "C": "Flexibility",
+      "D": "Equal access"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are setting up a network connection that requires redundancy in the event a switch or single link fails. Which topology should you select?",
+    "options": {
+      "A": "Bus",
+      "B": "Ring",
+      "C": "Star",
+      "D": "Mesh"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Where is the full mesh topology commonly seen in the three-tier design model?",
+    "options": {
+      "A": "Core layer",
+      "B": "Distribution layer",
+      "C": "Access layer",
+      "D": "Routing layer"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which connectivity method is used within a small geographic area to connect an organization together?",
+    "options": {
+      "A": "MAN",
+      "B": "LAN",
+      "C": "SAN",
+      "D": "PAN"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which virtual network element connects multiple VMs together?",
+    "options": {
+      "A": "Hypervisor",
+      "B": "vSwitch",
+      "C": "Load balancer",
+      "D": "NFV"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When you tether a cell phone to your laptops using wireless, what is this an example of?",
+    "options": {
+      "A": "SAN",
+      "B": "MAN",
+      "C": "CAN",
+      "D": "PAN"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the term used to describe the common network used to connect multiple network segments at high speed?",
+    "options": {
+      "A": "Backbone",
+      "B": "WAN",
+      "C": "PAN",
+      "D": "Workgroup"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is a smart jack as it relates to WAN connectivity?",
+    "options": {
+      "A": "Demarc",
+      "B": "NFV",
+      "C": "Load balancer",
+      "D": "Router"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol is used with dynamic multipoint VPN deployments?",
+    "options": {
+      "A": "mGRE",
+      "B": "MPLS",
+      "C": "SDWAN",
+      "D": "vNIC"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Flow control can be found at which layer of the OSI?",
+    "options": {
+      "A": "Transport layer",
+      "B": "Network layer",
+      "C": "Data Link layer",
+      "D": "Session layer"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is required before TCP can begin sending segments?",
+    "options": {
+      "A": "Three-way handshake",
+      "B": "Port agreement",
+      "C": "Sequencing of segments",
+      "D": "Acknowledgment of segments"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which layer of the OSI is responsible for dialogue control of applications?",
+    "options": {
+      "A": "Application layer",
+      "B": "Physical layer",
+      "C": "Session layer",
+      "D": "Network layer"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which layer is responsible for compression and decompression?",
+    "options": {
+      "A": "Application layer",
+      "B": "Physical layer",
+      "C": "Session layer",
+      "D": "Presentation layer"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which OSI layer is responsible for logical addressing?",
+    "options": {
+      "A": "Transport layer",
+      "B": "Network layer",
+      "C": "Application layer",
+      "D": "Data Link layer"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "As information travels down the network stack from the Application layer to the Physical layer, what happens?",
+    "options": {
+      "A": "Datagrams",
+      "B": "PDUs",
+      "C": "Encapsulation",
+      "D": "Decapsulation"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which sublayer of the Data Link OSI layer is responsible for identifying Network layer protocols and encapsulating them?",
+    "options": {
+      "A": "MAC",
+      "B": "LLC",
+      "C": "Data Link",
+      "D": "Session"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is not a benefit to the OSI model?",
+    "options": {
+      "A": "Multivendor development with a standardized model",
+      "B": "Prevents a change in one layer from affecting other layers",
+      "C": "Allows various network hardware and software to communicate",
+      "D": "Allows software to run at network speeds"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which three upper layers operate together?",
+    "options": {
+      "A": "Application, Presentation, and Session",
+      "B": "Presentation, Session, and Transport",
+      "C": "Transport, Session, and Application",
+      "D": "Network, Data Link, and Physical"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which 802 working group defines the LLC sublayer of the Data Link layer?",
+    "options": {
+      "A": "802.2",
+      "B": "802.3",
+      "C": "802.15",
+      "D": "802.11"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which concept describes transmitting multiple segments before the receiving host acknowledges the data?",
+    "options": {
+      "A": "Sequencing",
+      "B": "Compression",
+      "C": "Windowing",
+      "D": "Encryption"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which device will stop broadcasts from propagating the network?",
+    "options": {
+      "A": "Router",
+      "B": "Switch",
+      "C": "Hub",
+      "D": "WAP"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is used to determine the best path to a destination network?",
+    "options": {
+      "A": "Acknowledgment",
+      "B": "Network address",
+      "C": "Interface",
+      "D": "Metric"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol data unit (PDU) is used to describe data at the Physical layer?",
+    "options": {
+      "A": "Datagrams",
+      "B": "Bits",
+      "C": "Frames",
+      "D": "Segments"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which OSI layers are responsible for framing data and transmitting the data?",
+    "options": {
+      "A": "LLC and Physical layers",
+      "B": "Data Link and Physical layers",
+      "C": "Network and Transport layers",
+      "D": "Session and Transport layers"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which layer is responsible for creating a virtual circuit?",
+    "options": {
+      "A": "Presentation",
+      "B": "Session",
+      "C": "Transport",
+      "D": "Network"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "TCP and UDP reside at which layer of the OSI model?",
+    "options": {
+      "A": "Physical",
+      "B": "Session",
+      "C": "Network",
+      "D": "Transport"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the proper order of data encapsulation?",
+    "options": {
+      "A": "Datagram, segment, packet, frame, bits",
+      "B": "Bits, frame, packet, segment, datagram",
+      "C": "Segment, datagram, packet, frame, bits",
+      "D": "Datagram, packet, segment, frame, bits"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which layer is responsible for routing data packets?",
+    "options": {
+      "A": "Physical",
+      "B": "Data Link",
+      "C": "Transport",
+      "D": "Network"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which IEEE standard specifies the protocol for CSMA/CD?",
+    "options": {
+      "A": "802.2",
+      "B": "802.3",
+      "C": "802.5",
+      "D": "802.11"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are planning to run fiber-optic cable between two buildings that are 6,000 feet apart. Which is the best solution to complete this project?",
+    "options": {
+      "A": "SMF",
+      "B": "MMF",
+      "C": "MDF",
+      "D": "IDF"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to connect a switch to another switch. Which type of cable should you use to properly create the connection between the two switches?",
+    "options": {
+      "A": "Straight-through cable",
+      "B": "Rolled cable",
+      "C": "Crossover cable",
+      "D": "T1 crossover cable"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are designing a network in a building that has arc welders. Which cable should be used to eliminate EMI?",
+    "options": {
+      "A": "Category 5e",
+      "B": "UTP",
+      "C": "Twinaxial",
+      "D": "Fiber optic"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which connector type is typically found on a Category 6 cable?",
+    "options": {
+      "A": "RJ-45",
+      "B": "RJ-11",
+      "C": "BNC",
+      "D": "APC"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to make a Category 5e crossover cable. Which wiring standard will you use on both ends?",
+    "options": {
+      "A": "568A-to-568A",
+      "B": "568B-to-568A",
+      "C": "568B-to-568B",
+      "D": "APC-to-UPC"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to install cabling in an office space and want to be assured that toxic vapors will not be created in the event of a fire. Which cable type should you choose?",
+    "options": {
+      "A": "PVC",
+      "B": "FEP",
+      "C": "Non-plenum",
+      "D": "Plenum"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which serial connection method is typically used for connecting peripherals to a PC?",
+    "options": {
+      "A": "DB-9",
+      "B": "USB",
+      "C": "Category 3",
+      "D": "Rolled cable"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to run a UTP cable for 10 Gbps speeds with a distance of 100 meters. Which minimum cable category rating should you use?",
+    "options": {
+      "A": "Category 5",
+      "B": "Category 5e",
+      "C": "Category 6",
+      "D": "Category 6A"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is an incorrect statement about smart jacks?",
+    "options": {
+      "A": "A smart jack is a demarcation point.",
+      "B": "A smart jack can be remotely put into a loopback mode.",
+      "C": "A smart jack can report trouble in a circuit.",
+      "D": "A smart jack is also called a network interface device (NID)."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which term describes what happens to the signal in a network cable as you make the cable's distance greater?",
+    "options": {
+      "A": "Attenuation",
+      "B": "Duplex",
+      "C": "Demarcation",
+      "D": "EMI"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which cable has no metallic shielding?",
+    "options": {
+      "A": "STP",
+      "B": "UTP",
+      "C": "Coaxial",
+      "D": "Twinaxial"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which connector is typically used on the end of a coaxial cable?",
+    "options": {
+      "A": "RJ-45",
+      "B": "RJ-11",
+      "C": "SC",
+      "D": "F-type"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which fiber-optic connector uses a BNC style mechanism to lock the cable in place?",
+    "options": {
+      "A": "ST",
+      "B": "SC",
+      "C": "LC",
+      "D": "MT-RJ"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which technique is used to prevent crosstalk on network cables?",
+    "options": {
+      "A": "T-568A/B wiring standard",
+      "B": "Use of STP cables",
+      "C": "Rolling the cable",
+      "D": "Short distance installations"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which transceiver will support up to 40 Gbps links?",
+    "options": {
+      "A": "SFP+",
+      "B": "QSFP",
+      "C": "QSFP+",
+      "D": "QSFP28"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which connector will you find on a rolled cable?",
+    "options": {
+      "A": "RJ-11",
+      "B": "RJ-45",
+      "C": "BNC",
+      "D": "SC"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the main difference between single-mode fiber (SMF) and multimode fiber (MMF)?",
+    "options": {
+      "A": "Electrical signals.",
+      "B": "Number of light rays.",
+      "C": "Category rating.",
+      "D": "That signal-mode can be run a shorter distance."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which fiber-optic connector has a very small footprint for high-density installations?",
+    "options": {
+      "A": "SC",
+      "B": "ST",
+      "C": "LC",
+      "D": "FC"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to connect a switch that only supports multimode fiber to an existing single-mode fiber-optic line. What should you use to create a connection?",
+    "options": {
+      "A": "APC connector",
+      "B": "UPC connector",
+      "C": "SFP+ transceiver",
+      "D": "Media converter"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which cable type is considered a patch cable?",
+    "options": {
+      "A": "Straight-through cable",
+      "B": "Rolled cable",
+      "C": "Crossover cable",
+      "D": "STP"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which contention method does 802.3 Ethernet use for collisions?",
+    "options": {
+      "A": "CSMA/CD",
+      "B": "CSMA/CA",
+      "C": "Half-duplex",
+      "D": "Full-duplex"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which field in an Ethernet frame is used to check the integrity of the frame?",
+    "options": {
+      "A": "SOF",
+      "B": "Preamble",
+      "C": "DA",
+      "D": "FCS"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the significance of the preamble?",
+    "options": {
+      "A": "The preamble allows the switch to allocate a buffer.",
+      "B": "The preamble allows the switch to sense collisions before data is transmitted.",
+      "C": "The preamble allows the switch to sync timing for the receipt of information to follow.",
+      "D": "The preamble allows the switch to read the sequence and acknowledge receipt of the frame."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "In a layer 2 frame, where is the destination MAC address?",
+    "options": {
+      "A": "The destination MAC address is the first 6 bytes after the preamble.",
+      "B": "The destination MAC address is the second 6 bytes after the preamble.",
+      "C": "The destination MAC address is the payload data.",
+      "D": "The destination MAC address is found in the preamble."
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "How many bits is the OUI assigned by the IEEE?",
+    "options": {
+      "A": "6 bits",
+      "B": "22 bits",
+      "C": "24 bits",
+      "D": "48 bits"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "If the I/G or Individual/Group bit is set to 1 in the OUI portion of the MAC address, which statement is true?",
+    "options": {
+      "A": "The MAC address is a unique individual computer by the IEEE.",
+      "B": "The MAC address is locally governed.",
+      "C": "The MAC address is a broadcast or multicast.",
+      "D": "The MAC address should always be broadcast."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "If the L/G or Local/Group bit is set to 1 in the OUI portion of the MAC address, which statement is true?",
+    "options": {
+      "A": "The MAC address is a unique individual computer by the IEEE.",
+      "B": "The MAC address is locally governed.",
+      "C": "The MAC address is a broadcast or multicast.",
+      "D": "The MAC address should always be broadcast."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is a reason that the Ethernet protocol uses physical addresses?",
+    "options": {
+      "A": "It creates a differentiation between layer 2 and layer 3 communications.",
+      "B": "It defines a logical address scheme for devices.",
+      "C": "It uniquely identifies devices at layer 2.",
+      "D": "It allows the node to decide if the device is remote or local."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the 2-byte type field used for in an Ethernet frame?",
+    "options": {
+      "A": "It defines the data type contained within the frame.",
+      "B": "It identifies the upper-layer protocol for the data contained within the frame.",
+      "C": "It is a calculation with the FCS to provide error detection.",
+      "D": "It describes the length of data contained within the frame."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the purpose of the State of Frame delimiter byte in a frame?",
+    "options": {
+      "A": "It provides physical timing for the frame that follows.",
+      "B": "It divides the data and the physical timing portion of the frame.",
+      "C": "It provides a means for the receiving node to know when data begins.",
+      "D": "It delimits the destination and source MAC address."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "How many bits are in a nibble?",
+    "options": {
+      "A": "1",
+      "B": "4",
+      "C": "8",
+      "D": "16"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "How many bits are in a MAC address?",
+    "options": {
+      "A": "8",
+      "B": "24",
+      "C": "48",
+      "D": "64"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to connect a fiber-optic line between two floors of a building that are 200 meters apart. Which Ethernet technology is the most cost effective that will accomplish the task?",
+    "options": {
+      "A": "10GBaseER",
+      "B": "10GBaseT",
+      "C": "10GBaseSR",
+      "D": "10GBaseLR"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which technology provides Internet connectivity over power lines?",
+    "options": {
+      "A": "BPL",
+      "B": "MoCA",
+      "C": "HDMI",
+      "D": "HomePlug"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which statement is true when a collision is detected on the network?",
+    "options": {
+      "A": "The sender on the segment has the right of way.",
+      "B": "A jam signal is sent to all hosts on the segment.",
+      "C": "The receiver on the segment acknowledges the collision.",
+      "D": "Once the collision clears, all hosts have equal access on the segment."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "How many bits are used to represent the hexadecimal value of 0x0020?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "8",
+      "D": "16"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which 3 bytes of the Media Access Control (MAC) address F3-B2-CD-E4-F4-42 designate the unique station identifier?",
+    "options": {
+      "A": "F3-B2-CD",
+      "B": "B2-CD-E4",
+      "C": "E4-F4-42",
+      "D": "CD-E4-F4"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol does a host use to find the hardware address of a neighbor host by using the destination IP address?",
+    "options": {
+      "A": "TCP",
+      "B": "UDP",
+      "C": "ARP",
+      "D": "DNS"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What are the speed, maximum distance, and media of 10GBaseT?",
+    "options": {
+      "A": "10 Mb/s, 100 meters, and fiber optic",
+      "B": "10 Gb/s, 100 meters, and fiber optic",
+      "C": "10 Gb/s, 100 meters, and copper",
+      "D": "10 Gb/s, 300 meters, and copper"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "How many wire pairs are used with 1000BaseTX?",
+    "options": {
+      "A": "Two",
+      "B": "One",
+      "C": "Four",
+      "D": "Eight"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have been asked to change the IP address in external DNS for a mail server in your organization. Which record can be changed with the least amount of effort?",
+    "options": {
+      "A": "A record",
+      "B": "MX record",
+      "C": "PTR record",
+      "D": "TXT record"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is a valid reason to implement a wireless LAN controller?",
+    "options": {
+      "A": "Centralized provisioning",
+      "B": "The use of autonomous WAPs",
+      "C": "Multiple SSIDs",
+      "D": "Multiple VLANs"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the benefit of network segmentation?",
+    "options": {
+      "A": "Decreased broadcast domains",
+      "B": "Increased broadcast domains",
+      "C": "Decreased collision domains",
+      "D": "Increased collision domains"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol and port do you need to configure on the inbound host-based firewall for a DHCP server?",
+    "options": {
+      "A": "UDP/67",
+      "B": "TCP/67",
+      "C": "UDP/68",
+      "D": "TCP/68"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of device will detect but not prevent unauthorized access?",
+    "options": {
+      "A": "Firewall",
+      "B": "IPS",
+      "C": "IDS",
+      "D": "Honeypots"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Your organization expects a considerable amount of traffic to your web server, so you plan to install several web servers. How can you maintain one FQDN and allow customers to be directed to the next free web servers?",
+    "options": {
+      "A": "Router",
+      "B": "Firewall",
+      "C": "Load balancer",
+      "D": "Proxy"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Your organization has deployed several autonomous WAPs. Users complain that they consistently drop the wireless connection when roaming. What should you recommend to resolve this issue?",
+    "options": {
+      "A": "Wireless range extenders",
+      "B": "More autonomous WAPs",
+      "C": "Switching the channels the WAPs are using",
+      "D": "Wireless LAN controller"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to make sure that a printer is configured with the same IP address every time it is turned on. However, the printer is too troublesome to configure a static IP address. What can be done to achieve the goal?",
+    "options": {
+      "A": "Configure an A record for the printer in DNS.",
+      "B": "Configure a DHCP exclusion for the printer.",
+      "C": "Configure a DHCP reservation for the printer.",
+      "D": "Configure a PTR record for the printer in DNS."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which record type is used for an IPv4 address mapping to FQDN for DNS queries?",
+    "options": {
+      "A": "The A record",
+      "B": "The CName record",
+      "C": "The PTR record",
+      "D": "The AAAA record"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which device will act as a multiport repeater in the network?",
+    "options": {
+      "A": "Hub",
+      "B": "Switch",
+      "C": "Bridge",
+      "D": "WAP"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is a correct statement when hubs are replaced with switches?",
+    "options": {
+      "A": "The replacement increases collision domains.",
+      "B": "The replacement decreases collision domains.",
+      "C": "The replacement increases broadcast domains.",
+      "D": "The replacement decreases broadcast domains."
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When firewalls are placed in a network, which zone contains Internet-facing services?",
+    "options": {
+      "A": "Outside zone",
+      "B": "Enterprise network zone",
+      "C": "Demilitarized zone",
+      "D": "Inside zone"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is a false statement about firewalls?",
+    "options": {
+      "A": "Firewalls can protect a network from external attacks.",
+      "B": "Firewalls are commonly deployed to protect a network from internal attacks.",
+      "C": "Firewalls can provide stateful packet inspection.",
+      "D": "Firewalls can control application traffic."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which statement is correct about reverse lookups?",
+    "options": {
+      "A": "A reverse lookup is when the request needs to be reversed to another DNS server.",
+      "B": "A reverse lookup is the resolution of an IP address to FQDN.",
+      "C": "A reverse lookup is when the DNS queried can answer the request without asking another DNS server.",
+      "D": "A reverse lookup is the resolution of an FQDN to an IP address."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What gets appended to hostname queries for DNS resolution?",
+    "options": {
+      "A": "The DNS suffix",
+      "B": "The DNS zone",
+      "C": "The host header",
+      "D": "The hostname PTR record"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of DNS record holds the IPv4 IP address for a hostname?",
+    "options": {
+      "A": "The A record",
+      "B": "The CName record",
+      "C": "The PTR record",
+      "D": "The AAAA record"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following devices can work at both layers 2 and 3 of the OSI model?",
+    "options": {
+      "A": "Hub",
+      "B": "Switch",
+      "C": "Multilayer switch",
+      "D": "Bridge"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is an advantage of using DHCP in a network environment?",
+    "options": {
+      "A": "More difficult administration of the network",
+      "B": "Static IP addressing",
+      "C": "Can send an operating system for the PC to boot from",
+      "D": "Automatically assigns IP addresses to hosts"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is a benefit to installing a proxy server?",
+    "options": {
+      "A": "Web caching",
+      "B": "Throughput increase",
+      "C": "DHCP services",
+      "D": "Support for user authentication"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol and port number does DNS use for direct queries?",
+    "options": {
+      "A": "UDP/53",
+      "B": "TCP/53",
+      "C": "UDP/55",
+      "D": "UDP/68"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is a correct statement about the Transmission Control Protocol (TCP)?",
+    "options": {
+      "A": "TCP is a connectionless protocol.",
+      "B": "TCP allows for error correction.",
+      "C": "TCP is faster than UDP.",
+      "D": "TCP allows for retransmission of lost segments."
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "How does TCP guarantee delivery of segments to the receiver?",
+    "options": {
+      "A": "Via the destination port",
+      "B": "TCP checksums",
+      "C": "Window size",
+      "D": "Sequence and acknowledgment numbers"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When a programmer decides to use UDP as a transport protocol, what is a decision factor?",
+    "options": {
+      "A": "Redundancy of acknowledgment is not needed.",
+      "B": "Guaranteed delivery of segments is required.",
+      "C": "Windowing flow control is required.",
+      "D": "A virtual circuit is required."
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which mechanism allows for the Transport layer to communicate with the Session layer?",
+    "options": {
+      "A": "Headers",
+      "B": "Port numbers",
+      "C": "MAC address",
+      "D": "Checksums"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Why does DNS use UDP for queries?",
+    "options": {
+      "A": "DNS requires acknowledgment of the request for auditing.",
+      "B": "The requests require flow control of UDP.",
+      "C": "DNS requests are usually small and do not require connections setup.",
+      "D": "DNS requires a temporary virtual circuit."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol requires the programmer to deal with lost segments?",
+    "options": {
+      "A": "SSL",
+      "B": "TCP",
+      "C": "UDP",
+      "D": "NMS"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol can encapsulate many different protocols inside an IP tunnel?",
+    "options": {
+      "A": "GRE",
+      "B": "RARP",
+      "C": "ARP",
+      "D": "ICMP"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol provides confidentiality?",
+    "options": {
+      "A": "AH",
+      "B": "ESP",
+      "C": "GRE",
+      "D": "PDU"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol is used for configuration access to network appliances but is not encrypted?",
+    "options": {
+      "A": "SSH",
+      "B": "HTTPS",
+      "C": "Telnet",
+      "D": "RDP"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol is used by applications that need low overhead at the Transport layer?",
+    "options": {
+      "A": "TCP",
+      "B": "IP",
+      "C": "ARP",
+      "D": "UDP"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which layer in the DoD model is directly related to the Transport layer of the OSI model?",
+    "options": {
+      "A": "Process/Application layer",
+      "B": "Host-to-Host layer",
+      "C": "Internet layer",
+      "D": "Network Access layer"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which element is used with TCP to provide a virtual circuit?",
+    "options": {
+      "A": "Sequence numbers",
+      "B": "Acknowledgment numbers",
+      "C": "Protocol numbers",
+      "D": "Port numbers"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol uses UDP/123?",
+    "options": {
+      "A": "TFTP",
+      "B": "NTP",
+      "C": "HTTPS",
+      "D": "DNS"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which DoD layer allows for the logical addressing of hosts?",
+    "options": {
+      "A": "Process/Application layer",
+      "B": "Host-to-Host layer",
+      "C": "Internet layer",
+      "D": "Network Access layer"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the process called when data moves up the OSI model?",
+    "options": {
+      "A": "Encapsulation",
+      "B": "Decapsulation",
+      "C": "FCS",
+      "D": "PDU"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol provides an IP address from a physical address?",
+    "options": {
+      "A": "ICMP",
+      "B": "TCP",
+      "C": "ARP",
+      "D": "RARP"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What protocol from the Internet Protocol (IP) stack is used for diagnostics and error messages?",
+    "options": {
+      "A": "TCP",
+      "B": "ICMP",
+      "C": "ARP",
+      "D": "UDP"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which IP service uses the UDP protocol?",
+    "options": {
+      "A": "DHCP",
+      "B": "SMTP",
+      "C": "FTP",
+      "D": "HTTP"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to make sure that the time is consistent across all your network devices. What protocol do you need to run on your network?",
+    "options": {
+      "A": "FTP",
+      "B": "SFTP",
+      "C": "NTP",
+      "D": "SSH"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following allows a server to distinguish among different simultaneous requests from the same host?",
+    "options": {
+      "A": "They use different port numbers.",
+      "B": "The IP address that the request originates from.",
+      "C": "A server is unable to accept multiple simultaneous sessions from the same host. One session must end before another can begin.",
+      "D": "Each request uses a different sequence and acknowledgment number."
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following addresses is not allowed on the Internet?",
+    "options": {
+      "A": "191.192.168.1",
+      "B": "191.168.169.254",
+      "C": "172.32.255.0",
+      "D": "172.31.12.251"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A host automatically configured with an address from which of the following ranges indicates an inability to contact a DHCP server?",
+    "options": {
+      "A": "169.254.0.x with a mask of 255.255.255.0",
+      "B": "169.254.x.x with a mask of 255.255.0.0",
+      "C": "169.254.x.x with a mask of 255.255.255.0",
+      "D": "169.255.x.x with a mask of 255.255.0.0"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which statement regarding private IP addresses is most accurate?",
+    "options": {
+      "A": "Private addresses cannot be used in intranets that require routing.",
+      "B": "Private addresses must be assigned by a registrar or ISP.",
+      "C": "A remote host across the Internet cannot ping your host if it has a private address.",
+      "D": "Private addresses can be used only by a single administrative domain."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is a valid Class A address?",
+    "options": {
+      "A": "191.10.0.1",
+      "B": "127.10.0.1",
+      "C": "128.10.0.1",
+      "D": "126.10.0.1"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is a valid Class B address?",
+    "options": {
+      "A": "10.1.1.1",
+      "B": "126.1.1.1",
+      "C": "129.1.1.1",
+      "D": "192.168.1.1"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following describes a broadcast address?",
+    "options": {
+      "A": "All network bits are on (1s).",
+      "B": "All host bits are on (1s).",
+      "C": "All network bits are off (0s).",
+      "D": "All host bits are off (0s)."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is a layer 2 broadcast?",
+    "options": {
+      "A": "FF.FF.FF.EE.EE.EE",
+      "B": "FF.FF.FF.FF.FF.FF",
+      "C": "255.255.255.255",
+      "D": "255.0.0.0"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "In a Class C IP address, how long is the network address?",
+    "options": {
+      "A": "8 bits",
+      "B": "16 bits",
+      "C": "24 bits",
+      "D": "32 bits"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is true when describing a unicast address?",
+    "options": {
+      "A": "Packets addressed to a unicast address are delivered to a single interface.",
+      "B": "These are your typical publicly routable addresses, just like regular publicly routable addresses in IPv4.",
+      "C": "These are like private addresses in IPv4 in that they are not meant to be routed.",
+      "D": "These addresses are meant for nonrouting purposes, but they are almost globally unique, so it is unlikely they will have an address overlap."
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A host is rebooted, and you view the IP address that it was assigned. The address is 169.123.13.34. Which of the following happened?",
+    "options": {
+      "A": "The host received an APIPA address.",
+      "B": "The host received a multicast address.",
+      "C": "The host received a public address.",
+      "D": "The host received a private address."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "An IPv4 address uses 32 bits. How many bits is an IPv6 address?",
+    "options": {
+      "A": "64",
+      "B": "128",
+      "C": "192",
+      "D": "255"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is true when describing a multicast address?",
+    "options": {
+      "A": "Packets addressed to a unicast address from a multicast address are delivered to a single interface.",
+      "B": "Packets are delivered to all interfaces identified by the address. This is also called a one-to-many address.",
+      "C": "It identifies multiple interfaces and is delivered to only one address. This address can also be called one-to-one-of-many.",
+      "D": "These addresses are meant for nonrouting purposes, but they are almost globally unique so it is unlikely they will have an address overlap."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is true when describing an anycast address?",
+    "options": {
+      "A": "Packets addressed to a unicast address from an anycast address are delivered to a single interface.",
+      "B": "Packets are delivered to all interfaces identified by the address. This is also called a one-to-many address.",
+      "C": "This address identifies multiple interfaces, and the anycast packet is delivered to only one address: the closest one. This address can also be called one-to-nearest.",
+      "D": "These addresses are meant for nonrouting purposes, but they are almost globally unique so it is unlikely they will have an address overlap."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You want to ping the loopback address of your local host. Which two options could you type? (Choose two.)",
+    "options": {
+      "A": "ping 127.0.0.1",
+      "B": "ping 0.0.0.0",
+      "C": "ping ::1",
+      "D": "trace 0.0.::1"
+    },
+    "correct": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What two statements about IPv6 addresses are true? (Choose two.)",
+    "options": {
+      "A": "Leading zeros are required.",
+      "B": "Two colons (::) are used to represent successive hexadecimal fields of zeros.",
+      "C": "Two colons (::) are used to separate fields.",
+      "D": "A single interface will have multiple IPv6 addresses of different types."
+    },
+    "correct": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What two statements about IPv4 and IPv6 addresses are true? (Choose two.)",
+    "options": {
+      "A": "An IPv6 address is 32 bits long, represented in hexadecimal.",
+      "B": "An IPv6 address is 128 bits long, represented in decimal.",
+      "C": "An IPv4 address is 32 bits long, represented in decimal.",
+      "D": "An IPv6 address is 128 bits long, represented in hexadecimal."
+    },
+    "correct": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is a Class C network address?",
+    "options": {
+      "A": "10.10.10.0",
+      "B": "127.0.0.1",
+      "C": "128.0.0.0",
+      "D": "192.255.254.0"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following are private IP addresses? (Choose two.)",
+    "options": {
+      "A": "12.0.0.1",
+      "B": "168.172.19.39",
+      "C": "172.20.14.36",
+      "D": "172.33.194.30",
+      "E": "192.168.24.43"
+    },
+    "correct": [
+      "C",
+      "E"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "IPv6 unicast routing is running on the Corp router. Which of the following addresses would be used as the EUI-64 address?\n'''Corp#sh int f0/0\nFastEthernet0/0 is up, line protocol is up\nHardware is AmdFE, address is 000d.bd3b.0d80 (bia 000d.bd3b.0d80)\n[output cut]'''",
+    "options": {
+      "A": "FF02::3c3d:0d:bdff:fe3b:0d80",
+      "B": "FE80::3c3d:2d:bdff:fe3b:0d80",
+      "C": "FE80::3c3d:0d:bdff:fe3b:0d80",
+      "D": "FE80::3c3d:2d:ffbd:3bfe:0d80"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is an invalid IP address for a host?",
+    "options": {
+      "A": "10.0.0.1",
+      "B": "128.0.0.1",
+      "C": "224.0.0.1",
+      "D": "172.0.0.1"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is true of the IP address 135.20.255.255?",
+    "options": {
+      "A": "It is a Class A address.",
+      "B": "It is a broadcast address.",
+      "C": "It is the default gateway address.",
+      "D": "It has a default mask of 255.0.0.0."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have been given an IP address network of 203.23.23.0. You are asked to subnet it for two hosts per network. What is the subnet mask you will need to use to maximize networks?",
+    "options": {
+      "A": "255.255.255.252",
+      "B": "255.255.255.248",
+      "C": "255.255.255.240",
+      "D": "255.255.255.224"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You require the subnetting of the network address 192.168.1.0 to allow for 10 hosts per subnet while maintaining the maximum number of subnets. What should the subnet mask be?",
+    "options": {
+      "A": "255.255.255.192",
+      "B": "255.255.255.224",
+      "C": "255.255.255.240",
+      "D": "255.255.255.248"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have been assigned a network ID of 131.44.0.0/16 by your ISP. Your organization needs to use this network ID over four campuses. What mask should be used to subnet it to achieve the goal while maximizing host IP addresses?",
+    "options": {
+      "A": "255.255.128.0",
+      "B": "255.255.192.0",
+      "C": "255.255.252.0",
+      "D": "255.255.255.0"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the CIDR notation for a subnet mask of 255.255.240.0?",
+    "options": {
+      "A": "/19",
+      "B": "/20",
+      "C": "/22",
+      "D": "/28"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have been given an IP address network of 213.43.53.0. You are asked to subnet it for 22 hosts per network. What is the subnet mask you will need to use to maximize networks?",
+    "options": {
+      "A": "255.255.255.252",
+      "B": "255.255.255.248",
+      "C": "255.255.255.240",
+      "D": "255.255.255.224"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which valid IP is in the same network as 192.168.32.61/26?",
+    "options": {
+      "A": "192.168.32.59",
+      "B": "192.168.32.63",
+      "C": "192.168.32.64",
+      "D": "192.168.32.72"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are setting up a network in which you need 15 subnetworks. You have been given a network address of 153.20.0.0, and you need to maximize the number of hosts in each network. Which subnet mask will you use?",
+    "options": {
+      "A": "255.255.224.0",
+      "B": "255.255.240.0",
+      "C": "255.255.248.0",
+      "D": "255.255.252.0"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "An ISP gives you an IP address of 209.183.160.45/30 to configure your end of the serial connection. Which IP address will be on the ISP side?",
+    "options": {
+      "A": "209.183.160.43/30",
+      "B": "209.183.160.44/30",
+      "C": "209.183.160.46/30",
+      "D": "209.183.160.47/30"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": true,
+    "prompt": "In the following exhibit, what needs to be changed for Computer A to successfully communicate with Computer B (assume the least amount of effort to fix the problem)?",
+    "options": {
+      "A": "Computer A needs to have its IP address changed.",
+      "B": "Computer B needs to have its IP address changed.",
+      "C": "The default gateway IP address for Computer A needs to be changed.",
+      "D": "The default gateway IP address for Computer B needs to be changed."
+    },
+    "correct": [
+      "C"
+    ],
+    "image": "1.png"
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": true,
+    "prompt": "In the following exhibit, what needs to be changed for Computer A to successfully communicate with Computer B (assume the least amount of effort to fix the problem)?",
+    "options": {
+      "A": "Computer A needs to have its IP address changed.",
+      "B": "Computer B needs to have its IP address changed.",
+      "C": "The default gateway IP address for Computer A needs to be changed.",
+      "D": "The default gateway IP address for Computer B needs to be changed."
+    },
+    "correct": [
+      "A"
+    ],
+    "image": "2.png"
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which subnet does host 131.50.39.23/21 belong to?",
+    "options": {
+      "A": "131.50.39.0/21",
+      "B": "131.50.32.0/21",
+      "C": "131.50.16.0/21",
+      "D": "131.50.8.0/21"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A computer has an IP address of 145.50.23.1/22. What is the broadcast address for that computer?",
+    "options": {
+      "A": "145.50.254.255",
+      "B": "145.50.255.255",
+      "C": "145.50.22.255",
+      "D": "145.50.23.255"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which method will allow you to use RFC 1918 addresses for Internet requests?",
+    "options": {
+      "A": "CIDR",
+      "B": "Classful addressing",
+      "C": "NAT",
+      "D": "VPN"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": true,
+    "prompt": "In the following exhibit, what is the inside local IP address?",
+    "options": {
+      "A": "192.168.1.2 Host A",
+      "B": "192.168.1.1 Router A Gi0/0",
+      "C": "179.43.44.1 Router A S0/0",
+      "D": "198.23.53.3 web server"
+    },
+    "correct": [
+      "A"
+    ],
+    "image": "3.png"
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": true,
+    "prompt": "In the following exhibit, what is the inside global IP address?",
+    "options": {
+      "A": "192.168.1.2 Host A",
+      "B": "192.168.1.1 Router A Gi0/0",
+      "C": "179.43.44.1 Router A S0/0",
+      "D": "198.23.53.3 web server"
+    },
+    "correct": [
+      "C"
+    ],
+    "image": "4.png"
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": true,
+    "prompt": "In the following exhibit, what is the outside global IP address?",
+    "options": {
+      "A": "192.168.1.2 Host A",
+      "B": "192.168.1.1 Router A Gi0/0",
+      "C": "179.43.44.1 Router A S0/0",
+      "D": "198.23.53.3 web server"
+    },
+    "correct": [
+      "D"
+    ],
+    "image": "5.png"
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the maximum number of IP addresses that can be assigned to hosts on a local subnet that uses the 255.255.255.248 subnet mask?",
+    "options": {
+      "A": "6",
+      "B": "15",
+      "C": "16",
+      "D": "30",
+      "E": "31",
+      "F": "62"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "If a host on a network has the address 172.16.45.14/30, what is the subnetwork this host belongs to?",
+    "options": {
+      "A": "172.16.45.0",
+      "B": "172.16.45.4",
+      "C": "172.16.45.8",
+      "D": "172.16.45.12",
+      "E": "172.16.45.16"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "On which of the following devices are you typically able to implement NAT?",
+    "options": {
+      "A": "Hub",
+      "B": "Ethernet switch",
+      "C": "Router",
+      "D": "Bridge"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is required for the successful routing of a packet through a router?",
+    "options": {
+      "A": "Originating network of a packet",
+      "B": "Return path for the network packet",
+      "C": "Destination network of a packet",
+      "D": "Destination host of a packet"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which Cisco IOS command will display the route table?",
+    "options": {
+      "A": "show ip route",
+      "B": "show route",
+      "C": "display route",
+      "D": "show routing"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is true about static routes?",
+    "options": {
+      "A": "Routes are automatically updated.",
+      "B": "New routes are learned periodically.",
+      "C": "Static routes are the best for traffic flow.",
+      "D": "All routes must be manually configured."
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Using the following example, what does the C in the route statement mean?\nGateway of last resort is not set\nC      192.168.1.0/24 is directly connected, FastEthernet0/0\nC      192.168.2.0/24 is directly connected, FastEthernet0/1",
+    "options": {
+      "A": "The gateway of last resort is not set.",
+      "B": "The route is statically configured.",
+      "C": "The network is configured on the interface.",
+      "D": "The network is a continuation of another route."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What happens when the destination IP address of a packet is not in the same network as the host?",
+    "options": {
+      "A": "The destination IP address is set to the default gateway.",
+      "B": "The destination MAC address is set to the default gateway.",
+      "C": "The source IP address is set to the default gateway.",
+      "D": "The source MAC address is set to the default gateway."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which command can be used on a Cisco router to view the ARP cache?",
+    "options": {
+      "A": "show arp",
+      "B": "show arp-cache",
+      "C": "arp -g",
+      "D": "show ip arp"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the term used to describe the map of the internetwork inside a router?",
+    "options": {
+      "A": "Route map",
+      "B": "Route table",
+      "C": "Dynamic route",
+      "D": "Static route"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol is used to derive the MAC address of the default gateway?",
+    "options": {
+      "A": "ARP",
+      "B": "ICMP",
+      "C": "RARP",
+      "D": "Dynamic routing"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the Ether-Type field set to for the IPv4 protocol?",
+    "options": {
+      "A": "0x0806",
+      "B": "0x86dd",
+      "C": "0x0800",
+      "D": "0x8035"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are the network administrator for a small network that has multiple locations. You expect to add more in the future and want to ensure that routing is not troublesome and will be automated. Which should you employ?",
+    "options": {
+      "A": "Static routing",
+      "B": "Dynamic routing",
+      "C": "Dynamic Host Configuration Protocol",
+      "D": "Reverse Address Resolution Protocol"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What will happen if the router does not have a route to the destination network for a ping packet? (Choose two.)",
+    "options": {
+      "A": "The packet will be returned to the sender.",
+      "B": "The packet will be logged.",
+      "C": "The packet will be dropped.",
+      "D": "An ICMP packet is sent to the sender.",
+      "E": "The router will request a dynamic update."
+    },
+    "correct": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is at the end of a frame that allows the destination to verify that the frame was transmitted intact?",
+    "options": {
+      "A": "Source MAC address",
+      "B": "Destination MAC address",
+      "C": "Ether-Type",
+      "D": "FCS"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the message if an ICMP ping packet is lost along the way en route to the destination?",
+    "options": {
+      "A": "Request timed out",
+      "B": "Unknown error",
+      "C": "Destination unreachable",
+      "D": "Problem occurred"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which interface will the router switch the packet to for a destination of 172.16.20.94?\nGateway of last resort is not set\n\nC       172.16.20.0/27  is directly connected, FastEthernet 0/0\nC       172.16.20.32/27 is directly connected, FastEthernet 0/1\nC       172.16.20.64/27 is directly connected, FastEthernet 0/2\nC       172.16.20.128/27 is directly connected, FastEthernet 0/3",
+    "options": {
+      "A": "FastEthernet 0/0",
+      "B": "FastEthernet 0/1",
+      "C": "FastEthernet 0/2",
+      "D": "FastEthernet 0/3"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of these statements best describes dynamic routing?",
+    "options": {
+      "A": "All network IDs must be manually entered into the routing table.",
+      "B": "All host IDs must be manually entered into the routing table.",
+      "C": "Routing tables are updated automatically when changes occur in the network.",
+      "D": "Dynamic routing is the default for all routers."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of these statement regarding MAC addresses is true correct?",
+    "options": {
+      "A": "The destination MAC address does not change through the routing process.",
+      "B": "MAC addresses are always local on the LAN and never routed.",
+      "C": "The default gateway MAC address is always the same on all interfaces.",
+      "D": "Route decisions are based on the destination MAC address."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the term used to describe the result of all routes being updated in the routing table via a dynamic routing protocol?",
+    "options": {
+      "A": "Dynamic updates",
+      "B": "Route updates",
+      "C": "DNS resolution",
+      "D": "Convergence"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What command would be used to view the ARP cache on your host?",
+    "options": {
+      "A": "show ip route",
+      "B": "show ip arp",
+      "C": "show protocols",
+      "D": "arp -a"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Where along the IP routing process does a packet get changed?",
+    "options": {
+      "A": "Router",
+      "B": "Source host",
+      "C": "Destination host",
+      "D": "All of the above"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the term used to describe a collection of networks or subnets that are in the same administrative domain?",
+    "options": {
+      "A": "Autonomous system",
+      "B": "IGP",
+      "C": "Administrative distance",
+      "D": "EGP"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which high-availability protocol is an open standard?",
+    "options": {
+      "A": "NLB",
+      "B": "HSRP",
+      "C": "OSPF",
+      "D": "VRRP"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "How are routers managed with interior gateway protocols?",
+    "options": {
+      "A": "Routers are grouped into autonomous systems.",
+      "B": "Routing protocols are redistributed between ASs.",
+      "C": "All routers use the same interior routing protocol.",
+      "D": "All network IDs are advertised with the same autonomous system number."
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the maximum hop count for RIP?",
+    "options": {
+      "A": "15 hops",
+      "B": "100 hops",
+      "C": "255 hops",
+      "D": "16 hops"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which statement is true about RIPv2 advertisements?",
+    "options": {
+      "A": "RIPv2 allows for neighborship through hello packets.",
+      "B": "RIPv2 broadcasts only updates on all active interfaces.",
+      "C": "RIPv2 multicasts the full routing table every 30 seconds.",
+      "D": "RIPv2 multicasts the full routing table every 60 seconds."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which multicast address does RIPv2 use for advertising routes?",
+    "options": {
+      "A": "224.0.0.5",
+      "B": "224.0.0.9",
+      "C": "224.0.0.6",
+      "D": "224.0.0.2"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which routing protocol will not contain a topology of the network?",
+    "options": {
+      "A": "EIGRP",
+      "B": "RIP",
+      "C": "OSPF",
+      "D": "BGP"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When a static route is made, what is the default AD?",
+    "options": {
+      "A": "AD of 1",
+      "B": "AD of 0",
+      "C": "AD of 2",
+      "D": "AD of 255"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Why are ADs used with routing tables?",
+    "options": {
+      "A": "ADs define protocol standards.",
+      "B": "ADs define reliability of routing protocols.",
+      "C": "ADs allow for the shortest distance between routes.",
+      "D": "ADs are programmed by the administrator for path selection."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the metric for OSPF?",
+    "options": {
+      "A": "Link",
+      "B": "Delay, bandwidth, reliability, load",
+      "C": "K metrics",
+      "D": "Bandwidth"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are examining a router and discover that there is a static default route configured for a next hop of 192.168.1.2. You also notice that there is a default route being populated from RIP for a next hop of 192.168.2.2. Which default route will be selected?",
+    "options": {
+      "A": "The route with the lowest AD",
+      "B": "The route with the highest AD",
+      "C": "The route with the lowest metric",
+      "D": "The route being populated from RIP"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which routing protocol is a distance-vector routing protocol?",
+    "options": {
+      "A": "OSPF",
+      "B": "RIP",
+      "C": "EIGRP",
+      "D": "BGP"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which statement accurately describes a routing loop?",
+    "options": {
+      "A": "Packets are routed out one interface but come back on a different interface.",
+      "B": "Packets are transmitted within a series of routers and never reach the destination.",
+      "C": "Packets reach the expiry TTL before reaching the destination network.",
+      "D": "Packets are routed via an inefficient path."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the AD of RIP?",
+    "options": {
+      "A": "AD of 90",
+      "B": "AD of 100",
+      "C": "AD of 110",
+      "D": "AD of 120"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which routing protocol is a link-state routing protocol?",
+    "options": {
+      "A": "OSPF",
+      "B": "RIP",
+      "C": "EIGRP",
+      "D": "IGRP"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which routing technique requires no administrator intervention when a route goes down?",
+    "options": {
+      "A": "Dynamic routing",
+      "B": "Directly connected routes",
+      "C": "Default routing",
+      "D": "Static routing"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is an advantage of dynamic routing protocols?",
+    "options": {
+      "A": "Resiliency when routes become unavailable",
+      "B": "Lower router RAM usage",
+      "C": "Lower router CPU usage",
+      "D": "Less bandwidth usage"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which routing protocol broadcasts updates for routes?",
+    "options": {
+      "A": "RIPv1",
+      "B": "OSPF",
+      "C": "EIGRP",
+      "D": "BGP"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is an advantage of dynamic routing protocols?",
+    "options": {
+      "A": "Centralized routing tables",
+      "B": "Optimized route selection",
+      "C": "Ease of configuration",
+      "D": "Lower bandwidth utilization"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol is considered a hybrid protocol?",
+    "options": {
+      "A": "RIP",
+      "B": "OSPF",
+      "C": "EIGRP",
+      "D": "BGP"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 10,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is a characteristic of distance-vector protocols?",
+    "options": {
+      "A": "They track the status of routes learned.",
+      "B": "They re-advertise routes learned.",
+      "C": "Each router keeps its own topology database.",
+      "D": "Each router checks the routes it learns."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which devices provide the lowest latency and highest bandwidth for connectivity?",
+    "options": {
+      "A": "Hubs",
+      "B": "Switches",
+      "C": "Bridges",
+      "D": "Routers"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is a function of a layer 2 switch?",
+    "options": {
+      "A": "Forwarding the data based upon logical addressing",
+      "B": "Repeating the electrical signal to all ports",
+      "C": "Learning the MAC address by examining the destination MAC addresses",
+      "D": "Determining the forwarding interfaces based upon the destination MAC address and tables"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which quality of service (QoS) method is used at layer 2 of the OSI?",
+    "options": {
+      "A": "802.1Q",
+      "B": "ToS",
+      "C": "Diffserv",
+      "D": "CoS"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to trunk two switches from two different vendors together. Which trunking protocol should you use?",
+    "options": {
+      "A": "ISL",
+      "B": "802.1D",
+      "C": "802.1Q",
+      "D": "802.1w"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When calculating Spanning Tree Protocol (STP), which switch will always become the root bridge?",
+    "options": {
+      "A": "The switch with the highest priority",
+      "B": "The switch with the highest MAC address",
+      "C": "The switch with the lowest MAC address",
+      "D": "The switch with the lowest priority"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to restrict a switch port to a maximum of two devices. What should you implement to guarantee only two devices can communicate on the switch port?",
+    "options": {
+      "A": "Jumbo frames",
+      "B": "802.1X",
+      "C": "ACLs",
+      "D": "Port security"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is a benefit to converting a network from a flat layer 2 network to a routed layer 3 VLAN-enabled network?",
+    "options": {
+      "A": "Increased collision domains for increased bandwidth",
+      "B": "Reduced complexity of design and operations",
+      "C": "Flexibility of user management and design",
+      "D": "Decreased number of broadcast domains for increased bandwidth"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is a correct statement about frames and VLANs?",
+    "options": {
+      "A": "Broadcast frames are sent to ports that are configured in different VLANs.",
+      "B": "Unicast frames that are not in the MAC address table are flooded to all ports in all VLANs.",
+      "C": "The ports that link switches together must be access links.",
+      "D": "Frames with a destination MAC that are not in the MAC address table are flooded to only ports in the respective VLAN."
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Static VLANs are being used on a switch's interface. Which of the following statements is correct?",
+    "options": {
+      "A": "Nodes use a VLAN policy server.",
+      "B": "Nodes are assigned VLANs based on their MAC address.",
+      "C": "Nodes are unaware of the VLAN in which they are configured.",
+      "D": "All nodes are in the same VLAN."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is a direct benefit of adding VLANs?",
+    "options": {
+      "A": "An increase of broadcast domains while decreasing collision domains",
+      "B": "An increase of broadcast domains while increasing collision domains",
+      "C": "A decrease of broadcast domains while decreasing collision domains",
+      "D": "A decrease of broadcast domains while increasing collisions domains"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which statement describes dynamic VLANs?",
+    "options": {
+      "A": "The access port is switched into the respective VLAN based upon user credentials.",
+      "B": "The access port is switched into the respective VLAN based upon the computer's IP address.",
+      "C": "The access port is switched into the respective VLAN based upon the computer's MAC address.",
+      "D": "The access port is switched into the respective VLAN based upon security ACLs."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of port removes the VLAN ID from the frame before it egresses the interface?",
+    "options": {
+      "A": "Access port",
+      "B": "Trunk port",
+      "C": "Voice port",
+      "D": "Native port"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When you are protecting an interface with port security, to which mode should you set the switch port?",
+    "options": {
+      "A": "Access mode",
+      "B": "Dynamic mode",
+      "C": "Trunk mode",
+      "D": "Voice mode"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which VLAN is the default VLAN used to configure all switches from the factory?",
+    "options": {
+      "A": "VLAN 999",
+      "B": "VLAN 1002",
+      "C": "VLAN 1005",
+      "D": "VLAN 1"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have been asked to segment the network for an R&D workgroup. The requirement is to allow the R&D group access to the existing servers, but no other VLANs should be able to access R&D. How can this be achieved with maximum flexibility?",
+    "options": {
+      "A": "Create a new VLAN, configure a routed SVI interface, and apply ACLs to the VLAN.",
+      "B": "Create a new VLAN, configure a routed SVI interface, and apply extended ACLs to the R&D switch ports.",
+      "C": "Create a new VLAN, and install a new R&D server in the new VLAN.",
+      "D": "Create a new VLAN, and trunk the existing file server for both the production and R&D networks."
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "How does IEEE 802.1Q tag frames?",
+    "options": {
+      "A": "802.1Q adds a 32-bit header to the frame with the VLAN tagging information.",
+      "B": "802.1Q adds a 32-bit header to the packet with the VLAN tagging information.",
+      "C": "802.1Q inserts a 32-bit field between the source MAC address and the type field.",
+      "D": "802.1Q inserts a 32-bit field between the destination MAC address and the type field."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is a true statement about static access ports?",
+    "options": {
+      "A": "An access port can carry VLANs via tagging.",
+      "B": "A client computer can request the VLAN to be placed in.",
+      "C": "A client computer cannot see any VLAN tagging information.",
+      "D": "A client computer can see the VLAN tagging information."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You want to delete VLAN 1 for security reasons. However, the switch will not let you. What is the reason you cannot delete VLAN 1?",
+    "options": {
+      "A": "The VLAN is still configured on a port.",
+      "B": "The VLAN serves as the switch's main management IP.",
+      "C": "The VLAN is protected from deletion.",
+      "D": "The VLAN is still configured as a native VLAN on a trunk."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which statement is correct about native VLANs?",
+    "options": {
+      "A": "Any traffic tagged will be placed on the native VLAN.",
+      "B": "Any traffic that is not allowed over the trunk will be placed on the native VLAN.",
+      "C": "Any traffic not tagged will be placed on the native VLAN.",
+      "D": "Any traffic that is tagged with ISL on an 802.1Q trunk will be placed on the native VLAN."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the function of the VTP?",
+    "options": {
+      "A": "VTP allows for dynamic trunking between links.",
+      "B": "VTP allows for propagation of the VLAN database.",
+      "C": "VTP detects trunk encapsulation and negotiates trunks.",
+      "D": "VTP allows for propagation of the trunking database."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which wireless standard first introduced channel bonding?",
+    "options": {
+      "A": "802.11n",
+      "B": "802.11ac",
+      "C": "802.11g",
+      "D": "802.11a"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which three wireless channels on 2.4 GHz wireless are nonoverlapping?",
+    "options": {
+      "A": "1, 3, and 9",
+      "B": "1, 9, and 11",
+      "C": "1, 6, and 11",
+      "D": "1, 6, and 12"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are setting up a wireless network for a client. Their requirements are to minimize the infrastructure and support the highest security. Which wireless encryption standard should be configured to satisfy the requirements?",
+    "options": {
+      "A": "WPA-Enterprise",
+      "B": "WPA2-Personal",
+      "C": "WPA3-Enterprise",
+      "D": "WPA-Personal"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are configuring a WPA2 WLAN. Which security configuration should you use for the highest level of security?",
+    "options": {
+      "A": "WPA-AES",
+      "B": "WPA2-TKIP",
+      "C": "WPA2-RC4",
+      "D": "WPA2-AES"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "How many pre-shared keys can be configured for a specific WPA2 WLAN?",
+    "options": {
+      "A": "One PSK (one hex or one ASCII)",
+      "B": "Two PSKs (one hex and one ASCII)",
+      "C": "Four PSKs (two hex and two ASCII)",
+      "D": "Unlimited number of PSKs"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "After configuring a WLAN, your users complain that they do not see the SSID. What could be wrong?",
+    "options": {
+      "A": "SSID beaconing is enabled.",
+      "B": "Multicast support is disabled.",
+      "C": "Radio Policy is configured to all.",
+      "D": "SSID beaconing is disabled."
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the mechanism that allows for authentication using a symmetrical key with WPA2?",
+    "options": {
+      "A": "PSK",
+      "B": "AES",
+      "C": "Certificates",
+      "D": "TKIP"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When configuring WPA2, you want to ensure that it does not fall back to the older WPA specification. What parameter should you disable?",
+    "options": {
+      "A": "802.1X",
+      "B": "AES",
+      "C": "TKIP",
+      "D": "MAC filtering"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which mode of encryption does 802.11i (WPA2) introduce?",
+    "options": {
+      "A": "RC4",
+      "B": "MD5",
+      "C": "AES-CCMP",
+      "D": "SHA1"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which statement is correct about WPA?",
+    "options": {
+      "A": "WPA was released at the same time as WEP.",
+      "B": "WPA was released as a fix for poor coverage.",
+      "C": "WPA was released as a fix for poor encryption.",
+      "D": "The Wi-Fi Alliance wanted to rebrand WEP with WPA."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Matilda is interested in securing her SOHO wireless network. What should she do to be assured that only her devices can join her wireless network?",
+    "options": {
+      "A": "Enable WPA2",
+      "B": "Enable MAC filtering",
+      "C": "Enable port security",
+      "D": "Disable SSID broadcasts"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which device is the supplicant during the 802.1X authentication process?",
+    "options": {
+      "A": "The device requesting access",
+      "B": "The server that is providing authentication",
+      "C": "The device that is controlling access via 802.1X",
+      "D": "The device connecting the layer 3 network"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the access point called in an 802.1X configuration?",
+    "options": {
+      "A": "Authenticator",
+      "B": "Supplicant",
+      "C": "AAA server",
+      "D": "RADIUS server"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to install wireless Internet access in an open warehouse environment. After installing the equipment, the technician notices varying signal strengths throughout the warehouse. How do you make sure there is full coverage?",
+    "options": {
+      "A": "Turn on broadcast key rotation.",
+      "B": "Change the encryption method used on all the APs.",
+      "C": "Change the antenna placement.",
+      "D": "Use channel bonding.",
+      "E": "Use traffic shaping."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the frequency range of the IEEE 802.11g standard?",
+    "options": {
+      "A": "2.4 Gbps",
+      "B": "5 Gbps",
+      "C": "2.4 GHz",
+      "D": "5 GHz"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which devices can interfere with the operation of a wireless network because they operate on similar frequencies? (Choose two.)",
+    "options": {
+      "A": "Copier",
+      "B": "Microwave oven",
+      "C": "Toaster",
+      "D": "Cordless phone",
+      "E": "IP phone",
+      "F": "AM radio"
+    },
+    "correct": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which wireless standard allows you to channel-bond to increase bandwidth and uses both the 2.4 GHz and 5 GHz frequencies?",
+    "options": {
+      "A": "802.11b",
+      "B": "802.11g",
+      "C": "802.11a",
+      "D": "802.11n",
+      "E": "802.11ac"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have installed a point-to-point connection using wireless bridges and Omni directional antennas between two buildings. The throughput is low. What can you do to improve the link?",
+    "options": {
+      "A": "Replace the bridges with APs.",
+      "B": "Replace the Omni directional antennas with Yagis.",
+      "C": "Configure 802.11a on the links.",
+      "D": "Install amps to boost the signal."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which wireless LAN design ensures that a mobile wireless client will not lose connectivity when moving from one access point to another (roaming)?",
+    "options": {
+      "A": "Using adapters and access points manufactured by the same company",
+      "B": "Overlapping the wireless cell coverage by at least 10 percent",
+      "C": "Configuring all access points to use the same channel",
+      "D": "Utilizing MAC address filtering to allow the client MAC address to authenticate with the surrounding APs"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which spread-spectrum technology does the 802.11b standard define for operation?",
+    "options": {
+      "A": "IR",
+      "B": "DSSS",
+      "C": "FHSS",
+      "D": "DSSS and FHSS",
+      "E": "IR, FHSS, and DSSS"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A serial console cable is an example of which of the following technologies?",
+    "options": {
+      "A": "Captive portal",
+      "B": "Out-of-band management",
+      "C": "Clientless VPN",
+      "D": "AAA"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to implement a secure connection for your users to access sensitive sites internally for your organization. Which technology should you select?",
+    "options": {
+      "A": "Captive portal",
+      "B": "Clientless VPN",
+      "C": "LDAP",
+      "D": "RDP"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is an operating system image delivered over the network at each startup?",
+    "options": {
+      "A": "VNC",
+      "B": "Virtual desktop",
+      "C": "Remote desktop",
+      "D": "RDP"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is not a component of Virtual Network Computing (VNC)?",
+    "options": {
+      "A": "VNC server",
+      "B": "VNC client",
+      "C": "VNC desktop",
+      "D": "VNC protocol"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is a network protocol that is designed as an alternative to command-based utilities such as Telnet?",
+    "options": {
+      "A": "SSL",
+      "B": "SSH",
+      "C": "STP",
+      "D": "STFP"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following allows you to tunnel directly to the remote server with no VPN?",
+    "options": {
+      "A": "Split tunnel",
+      "B": "RDP Gateway",
+      "C": "Full tunnel",
+      "D": "VNC"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following was formerly called Terminal Services Client?",
+    "options": {
+      "A": "Virtual desktop",
+      "B": "Remote Desktop Connection",
+      "C": "VNC",
+      "D": "RDP Gateway"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following operates somewhat like Telnet, except instead of getting a command-line prompt as you do with Telnet, you get the actual graphical user interface (GUI) of the remote computer?",
+    "options": {
+      "A": "RBAC",
+      "B": "SSH",
+      "C": "RDP",
+      "D": "SSL"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is not an example of a remote desktop connection?",
+    "options": {
+      "A": "RDP",
+      "B": "LogMeIn",
+      "C": "GoToMyPC",
+      "D": "SSH"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Split tunnel and full tunnel are examples of which type of VPN?",
+    "options": {
+      "A": "Client-to-site",
+      "B": "Site-to-site",
+      "C": "RDP VPN",
+      "D": "Clientless VPN"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have several remote offices that you need to connect securely over the Internet. Which technology would best suit the connectivity for this requirement?",
+    "options": {
+      "A": "GRE tunnel",
+      "B": "Wireless WAN",
+      "C": "Client-to-site VPN",
+      "D": "Site-to-site VPN"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Why should Telnet be replaced with SSH?",
+    "options": {
+      "A": "Telnet has weak encryption.",
+      "B": "SSH allows for file copy.",
+      "C": "SSH makes it easier to create ACLs for access.",
+      "D": "SSH is encrypted."
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What type of encryption does a clientless VPN use?",
+    "options": {
+      "A": "SSH",
+      "B": "SSL/TLS",
+      "C": "RDP",
+      "D": "ACLs"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What are the terminal parameters that are the most common for serial configuration of a Cisco router or switch?",
+    "options": {
+      "A": "9600 baud, 8 data bits, parity none, no stop bits",
+      "B": "9600 baud, 8 parity bits, no data bits, 1 stop bit",
+      "C": "9600 baud, 7 data bits, parity none, 1 stop bit",
+      "D": "9600 baud, 8 data bits, parity none, 1 stop bit"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are connecting to a network switch with the SSH protocol. Which type of connection is this considered?",
+    "options": {
+      "A": "Out-of-band management",
+      "B": "In-band management",
+      "C": "GUI-based management",
+      "D": "API-based management"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is an operating system image delivered over the network?",
+    "options": {
+      "A": "VNC",
+      "B": "Virtual desktop",
+      "C": "VPN",
+      "D": "RDP"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which port and protocol does the VNC protocol operate on?",
+    "options": {
+      "A": "443/TCP",
+      "B": "5900/TCP",
+      "C": "5900/UDP",
+      "D": "3389/TCP"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the most common way to access resource-based APIs?",
+    "options": {
+      "A": "RDP",
+      "B": "Terminal-based",
+      "C": "REST",
+      "D": "GUI-based"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which out-of-band management connectivity method provides for up to 115,200 Kbps?",
+    "options": {
+      "A": "USB",
+      "B": "EIA-TIA 232",
+      "C": "COM",
+      "D": "SSH"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which port and protocol are used for the Remote Desktop Gateway connection?",
+    "options": {
+      "A": "3389/TCP",
+      "B": "5900/TCP",
+      "C": "443/TCP",
+      "D": "80/TCP"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which measurement describes the delay a packet incurs from source to destination?",
+    "options": {
+      "A": "Bandwidth",
+      "B": "Latency",
+      "C": "Jitter",
+      "D": "Loss"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are using a network management station (NMS) to collect data for network devices. What must be loaded before you can capture data from the network devices via the Simple Network Management Protocol (SNMP)?",
+    "options": {
+      "A": "OID",
+      "B": "MIB",
+      "C": "Traps",
+      "D": "Gets"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which service can identify major users of the network, meaning top talkers?",
+    "options": {
+      "A": "Syslog",
+      "B": "SIEM",
+      "C": "NetFlow",
+      "D": "SNMP"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following refers to the standard level of performance of a certain device or to the normal operating capacity for your whole network?",
+    "options": {
+      "A": "Baseline",
+      "B": "Target",
+      "C": "Normal",
+      "D": "Utilization"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which version of SNMP supports authentication and encryption?",
+    "options": {
+      "A": "SNMP version 1",
+      "B": "SNMP version 2e",
+      "C": "SNMP version 2c",
+      "D": "SNMP version 3"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which component receives information from an SNMP agent?",
+    "options": {
+      "A": "Syslog",
+      "B": "Network management station",
+      "C": "Object identifier",
+      "D": "Management information base"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which metric is the variation from the delay between the source and destination?",
+    "options": {
+      "A": "Latency",
+      "B": "Jitter",
+      "C": "Bandwidth",
+      "D": "Throughput"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which SNMP component is used to address a performance counter?",
+    "options": {
+      "A": "Syslog",
+      "B": "Network management station",
+      "C": "Object identifier",
+      "D": "Management information base"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What type of SNMP message is sent to a network management station when an interface goes down?",
+    "options": {
+      "A": "Get-request message",
+      "B": "Get-response message",
+      "C": "Set-request message",
+      "D": "Trap message"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which security method does SNMP version 2c employ?",
+    "options": {
+      "A": "Encryption",
+      "B": "User authentication",
+      "C": "Community strings",
+      "D": "Message integrity"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the database of variables that SNMP uses to allow for collection of data?",
+    "options": {
+      "A": "Object identifiers (OIDs)",
+      "B": "Management information base",
+      "C": "SNMP agent",
+      "D": "SNMP community string"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following can be used in conjunction with an SNMP agent configuration for added security?",
+    "options": {
+      "A": "Encrypted communities",
+      "B": "Access control lists",
+      "C": "SNMP callback security",
+      "D": "SHA-256"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol and port number does SNMP use for trap and inform messages to the NMS?",
+    "options": {
+      "A": "UDP/161",
+      "B": "TCP/162",
+      "C": "UDP/162",
+      "D": "UDP/514"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which syslog severity level is used to convey a failure of a component?",
+    "options": {
+      "A": "Level 3",
+      "B": "Level 4",
+      "C": "Level 0",
+      "D": "Level 7"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which SNMP component is installed on a network device that will respond to NMS queries?",
+    "options": {
+      "A": "Object identifiers (OIDs)",
+      "B": "Management information base",
+      "C": "SNMP agent",
+      "D": "SNMP community string"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What type of SNMP message is sent from a network management station to an agent for retrieving information?",
+    "options": {
+      "A": "Get-request message",
+      "B": "Get-response message",
+      "C": "Set-request message",
+      "D": "Trap message"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is not a commonly used NetFlow identifier?",
+    "options": {
+      "A": "Source IP",
+      "B": "Destination port number",
+      "C": "Layer 2 protocol field",
+      "D": "Input logical interface"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which provides the ability to mirror port traffic on a switch?",
+    "options": {
+      "A": "Syslog",
+      "B": "SNMP",
+      "C": "NetFlow",
+      "D": "SPAN"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which device components should never be allowed to reach full capacity? (Choose two.)",
+    "options": {
+      "A": "Memory",
+      "B": "Voltage",
+      "C": "CPU",
+      "D": "Delay"
+    },
+    "correct": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which network metric will describe the utilization for a connection?",
+    "options": {
+      "A": "Latency",
+      "B": "Jitter",
+      "C": "Throughput",
+      "D": "Bandwidth"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The way to properly install or remove software on the servers is an example of which of the following?",
+    "options": {
+      "A": "Plan",
+      "B": "Policy",
+      "C": "Procedure",
+      "D": "Code"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is a plan for reversing changes and recovering from any adverse effects from the changes?",
+    "options": {
+      "A": "Backup",
+      "B": "Secondary",
+      "C": "Rollback",
+      "D": "Failover"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is the amount of time a system will be down or unavailable during the implementation of changes?",
+    "options": {
+      "A": "Downtime",
+      "B": "Maintenance window",
+      "C": "MTBF",
+      "D": "Work factor"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is not a device hardening technique?",
+    "options": {
+      "A": "Remove unnecessary applications.",
+      "B": "Deploy an access control vestibule.",
+      "C": "Block unrequired ports.",
+      "D": "Disable unnecessary services."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which policy automatically logs a user out after a specified period without activity?",
+    "options": {
+      "A": "Password complexity",
+      "B": "Password history",
+      "C": "Password length",
+      "D": "Authentication period"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "BYOD policies apply to what type of device?",
+    "options": {
+      "A": "Mobile",
+      "B": "Router",
+      "C": "Server",
+      "D": "Firewall"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which tool can prevent the emailing of a document to anyone other than Sales group members?",
+    "options": {
+      "A": "BYOD",
+      "B": "Password policy",
+      "C": "DLP",
+      "D": "AUP"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following connects equipment (inside plant) to cables and subscriber carrier equipment (outside plant)?",
+    "options": {
+      "A": "IDF",
+      "B": "MDF",
+      "C": "Hardware rack",
+      "D": "Access control vestibule"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is not part of the information gathering step of a site survey?",
+    "options": {
+      "A": "Determine the scope of the network with respect to applications in use.",
+      "B": "Verify optimal distances between prospective AP locations.",
+      "C": "Identify areas that must be covered.",
+      "D": "Assess types of wireless devices that will need to be supported."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Device baselines include information about all but which of the following components?",
+    "options": {
+      "A": "CPU",
+      "B": "Memory",
+      "C": "Hard disk",
+      "D": "Display"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You just finished repairing a network connection, and in the process, you traced several network connections. Which type of documentation should you create so that another technician does not need to repeat the task of tracing connections?",
+    "options": {
+      "A": "Logical diagram",
+      "B": "Knowledge base article",
+      "C": "Change management document",
+      "D": "Physical diagram"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You just had an outage of Internet connectivity due to a denial-of-service attack. Which document should you follow during the outage?",
+    "options": {
+      "A": "Change management plan",
+      "B": "Knowledge base article",
+      "C": "Acceptable use policy",
+      "D": "Incident response plan"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are currently troubleshooting a network issue. Which type of diagram allows you to view the flow of information from a high-level overview? (Choose the best answer.)",
+    "options": {
+      "A": "Logical diagram",
+      "B": "Physical diagram",
+      "C": "Symbol diagram",
+      "D": "Knowledge base article"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "End users are abusing the email system by selling personal items. Which policy would detail the proper use of the email system for business purposes?",
+    "options": {
+      "A": "BYOD",
+      "B": "Password policy",
+      "C": "AUP",
+      "D": "Incident response plan"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Why should performance baselines be captured over a long period of time?",
+    "options": {
+      "A": "To define normal operations and activity",
+      "B": "To define a historical representation of activity",
+      "C": "To help validate when a problem is solved",
+      "D": "All of the above"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which policy would you create to define the minimum specification if an employee wanted to use their own device for email?",
+    "options": {
+      "A": "MDM",
+      "B": "AUP",
+      "C": "BYOD",
+      "D": "NDA"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are contracting with a new service provider and are reviewing their service level agreement (SLA). The SLA states that their commitment to uptime is 99.99%. What is the expected downtime per year?",
+    "options": {
+      "A": "3.65 days",
+      "B": "8.76 hours",
+      "C": "52.56 minutes",
+      "D": "5.29 minutes"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have been informed that all material must be removed from your desk before you leave for the day. What type of policy is this?",
+    "options": {
+      "A": "NDA",
+      "B": "Clean-desk policy",
+      "C": "Password policy",
+      "D": "BYOD"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of document will contain heat maps of wireless equipment after installation?",
+    "options": {
+      "A": "Logical network diagram",
+      "B": "Physical network diagram",
+      "C": "Site survey report",
+      "D": "Baseline"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have been tasked with planning the IP addressing in your organization. Which tool should you employ to help you with this task?",
+    "options": {
+      "A": "IPAM",
+      "B": "SLA",
+      "C": "MOU",
+      "D": "NDA"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have a high demand of normal requests on the company's web server. Which strategy should be implemented to avoid issues if demand becomes too high? (Choose the best answer.)",
+    "options": {
+      "A": "Clustering",
+      "B": "Port aggregation",
+      "C": "Fault tolerance",
+      "D": "Load balancing"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is a measure back in time to when your data was preserved in a usable format, usually to the most recent backup?",
+    "options": {
+      "A": "RTO",
+      "B": "MTBF",
+      "C": "RPO",
+      "D": "MTTR"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is an IEEE standard (RFC 2338) for router redundancy?",
+    "options": {
+      "A": "HSRP",
+      "B": "VRRP",
+      "C": "HDLC",
+      "D": "MLPS"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is the defined interval during which each of the routers send out Hello messages in HSRP?",
+    "options": {
+      "A": "Hold timer",
+      "B": "Hello timer",
+      "C": "Active timer",
+      "D": "Standby timer"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the HSRP group number of the group with the following HSRP MAC address?\n0000.0c07.ac0a",
+    "options": {
+      "A": "10",
+      "B": "17",
+      "C": "20",
+      "D": "25"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following provides only fault tolerance?",
+    "options": {
+      "A": "Two servers in an active/active configuration",
+      "B": "Three servers in an active/passive configuration with one on standby",
+      "C": "Three servers in an active/passive configuration with two on standby",
+      "D": "Three servers in an active/active configuration"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which site type mimics your on-premises network yet is totally virtual?",
+    "options": {
+      "A": "Cold site",
+      "B": "Cloud site",
+      "C": "Warm site",
+      "D": "Hot site"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following fire suppression systems is not a good choice where computing equipment will be located?",
+    "options": {
+      "A": "Deluge",
+      "B": "CO2",
+      "C": "Argon",
+      "D": "NAF-S-III"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following protocols gives you a way to configure more than one physical router to appear as if they were only a single logical one?",
+    "options": {
+      "A": "FHRP",
+      "B": "NAT",
+      "C": "NIC teaming",
+      "D": "STP"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following provides a method to join multiple physical switches into a single logical switching unit?",
+    "options": {
+      "A": "Stacking",
+      "B": "Daisy chaining",
+      "C": "Segmenting",
+      "D": "Federating"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of recovery is the least expensive to maintain over time?",
+    "options": {
+      "A": "Cold site recovery",
+      "B": "Warm site recovery",
+      "C": "Hot site recovery",
+      "D": "Cloud site recovery"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A recovery from tape will take 4 hours; what is this an example of?",
+    "options": {
+      "A": "The recovery point objective (RPO)",
+      "B": "The recovery time objective (RTO)",
+      "C": "GFS rotation",
+      "D": "Backup window"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to purchase a power backup system for a mission critical data center. Which backup systems will ensure long-term power that has a flawless AC signal? (Choose two.)",
+    "options": {
+      "A": "Standby UPS",
+      "B": "Line interactive UPS",
+      "C": "Online UPS",
+      "D": "Generator"
+    },
+    "correct": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which allows for the feedback and revision of plans, procedures, and policies?",
+    "options": {
+      "A": "Tabletop exercises",
+      "B": "SOP",
+      "C": "RTO",
+      "D": "Validation tests"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which fire suppression system is normally found in data centers?",
+    "options": {
+      "A": "Deluge",
+      "B": "Clean agent",
+      "C": "Preaction",
+      "D": "Dry pipe"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which environmental factor can cause the potential for electrostatic discharge?",
+    "options": {
+      "A": "Temperature",
+      "B": "Electrical",
+      "C": "Humidity",
+      "D": "Flooding"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of uninterruptable power supplies (UPS), often found in data centers, provides constant power from the battery-powered inverter circuit?",
+    "options": {
+      "A": "Line interactive UPS",
+      "B": "Standby UPS",
+      "C": "Online UPS",
+      "D": "Failover UPS"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to choose a vendor based on their speed in fixing issues. Which metric should you evaluate?",
+    "options": {
+      "A": "MTTR",
+      "B": "VRRP",
+      "C": "HSRP",
+      "D": "MTBF"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to supply power for a rack of servers. Which device should you use?",
+    "options": {
+      "A": "Inverter",
+      "B": "HVAC",
+      "C": "UPS",
+      "D": "PDU"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have a server in a data center that has two interfaces. What should you employ to make sure that a switch failure will not impede network function of the server?",
+    "options": {
+      "A": "HSRP",
+      "B": "VRRP",
+      "C": "NIC teaming",
+      "D": "STP"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Amazon Web Services (AWS) and Microsoft Azure are examples of what?",
+    "options": {
+      "A": "Public cloud providers",
+      "B": "Private cloud providers",
+      "C": "Hybrid cloud providers",
+      "D": "Dynamic cloud providers"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A hosted medical records service is an example of which cloud model?",
+    "options": {
+      "A": "PaaS",
+      "B": "IaaS",
+      "C": "SaaS",
+      "D": "BaaS"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is not a NIST criterion for cloud computing?",
+    "options": {
+      "A": "Resource pooling",
+      "B": "Rapid elasticity",
+      "C": "Automated billing",
+      "D": "Measured service"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which term describes the type of cloud an internal IT department hosting virtualization for a company would host?",
+    "options": {
+      "A": "Public cloud",
+      "B": "Elastic cloud",
+      "C": "Private cloud",
+      "D": "Internal cloud"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Hosting a disaster recovery (DR) site on Microsoft Azure is an example of which National Institute of Standards and Technology (NIST) type of cloud service?",
+    "options": {
+      "A": "IaaS",
+      "B": "DRaaS",
+      "C": "PaaS",
+      "D": "SaaS"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A hosted environment that allows you to write and run programs is an example of which cloud model?",
+    "options": {
+      "A": "PaaS",
+      "B": "IaaS",
+      "C": "SaaS",
+      "D": "BaaS"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You purchase a VM on a public cloud and plan to create a VPN tunnel to the cloud provider. Your IP network is 172.16.0.0/12, and the provider has assigned an IP address in the 10.0.0.0/8 network. What virtual network function (VNF) will you need from the provider to communicate with the VM?",
+    "options": {
+      "A": "Virtual switch",
+      "B": "Virtual firewall",
+      "C": "Virtual router",
+      "D": "Another IP scheme at the provider"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Where does the SDN controller interface with the switching fabric?",
+    "options": {
+      "A": "Spine",
+      "B": "Control plane",
+      "C": "Forwarding plane",
+      "D": "Core"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are running several web servers in a cloud with a server load balancer. As demand increases, you add web servers. According to the NIST standard of cloud computing, which feature can you use to increase your compute capability for demand?",
+    "options": {
+      "A": "Resource pooling",
+      "B": "Measured services",
+      "C": "Broad network access",
+      "D": "Rapid elasticity"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Abstracting the cloud hardware into software objects for automated configuration is referred to as which of the following?",
+    "options": {
+      "A": "Application programming interface",
+      "B": "Elasticity",
+      "C": "Infrastructure as code",
+      "D": "Software-defined networking"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which network plane is used by SSH for command-line configuration?",
+    "options": {
+      "A": "Data plane",
+      "B": "Control plane",
+      "C": "Management plane",
+      "D": "Switch plane"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which is used for communicating directly to the SDN devices in the network?",
+    "options": {
+      "A": "The northbound interface (NBI)",
+      "B": "The southbound interface (SBI)",
+      "C": "The core of the controller",
+      "D": "Applications hosted on the controller"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When the vendor provides the hardware platform or data center and the company installs and manages its own operating systems and application systems, which service type is being used?",
+    "options": {
+      "A": "Software as a service",
+      "B": "Infrastructure as a service",
+      "C": "Platform as a service",
+      "D": "Desktop as a service"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When an application communicates with an SDN controller, which mechanism does it use to communicate?",
+    "options": {
+      "A": "The southbound interface (SBI)",
+      "B": "The core of the controller",
+      "C": "The northbound interface (NBI)",
+      "D": "Simple Network Management Protocol (SNMP)"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What are machine-to-machine configuration interfaces called?",
+    "options": {
+      "A": "Northbound interfaces",
+      "B": "Southbound interfaces",
+      "C": "APIs",
+      "D": "SDN"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Public clouds are divided into logical groupings that allow many different customers to access a section as if it were their own private data center. What is this known as?",
+    "options": {
+      "A": "Scalability",
+      "B": "Elasticity",
+      "C": "Multitenancy",
+      "D": "Platform as a service"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following are methods used to connect a private cloud to a public cloud? (Choose all that apply.)",
+    "options": {
+      "A": "Internet",
+      "B": "SDN",
+      "C": "VPN",
+      "D": "Direct Connect",
+      "E": "Virtual switches"
+    },
+    "correct": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol allows for the tunneling of layer 2 traffic over a layer 3 network?",
+    "options": {
+      "A": "GRE",
+      "B": "VLAN",
+      "C": "VXLAN",
+      "D": "STP"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which function does Ansible, Chef, and Puppet perform in the network?",
+    "options": {
+      "A": "Network management station",
+      "B": "Automation and orchestration",
+      "C": "Software-defined networking",
+      "D": "Centralized logging"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which concept assumes a user or device is not trusted, regardless of whether it was previously authenticated?",
+    "options": {
+      "A": "ZTA",
+      "B": "SDN",
+      "C": "IaC",
+      "D": "IaaS"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following are not specific steps in the Network+ troubleshooting methodology model? (Choose all that apply.)",
+    "options": {
+      "A": "Reboot the servers.",
+      "B": "Identify the problem.",
+      "C": "Test the theory to determine the cause.",
+      "D": "Implement the solution or escalate as necessary.",
+      "E": "Document findings, actions, outcomes, and lessons learned",
+      "F": "Reboot all the routers."
+    },
+    "correct": [
+      "A",
+      "F"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have a user who cannot connect to the network. What is the first thing you could check to determine the source of the problem?",
+    "options": {
+      "A": "Workstation configuration",
+      "B": "Connectivity",
+      "C": "Patch cable",
+      "D": "Server configuration"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When wireless users complain that they are losing their connection to applications during a session, what is the source of the problem?",
+    "options": {
+      "A": "Incorrect SSID",
+      "B": "Latency",
+      "C": "Incorrect encryption",
+      "D": "MAC address filter"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Several users can't log in to the server. Which action would help you to narrow the problem down to the workstations, network, or server?",
+    "options": {
+      "A": "Run tracert from a workstation.",
+      "B": "Check the server console for user connections.",
+      "C": "Run netstat on all workstations.",
+      "D": "Check the network diagnostics."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A user can't log into the network. She can't even connect to the Internet over the LAN. Other users in the same area aren't experiencing any problems. You attempt to log in as this user from your workstation with her username and password and don't experience any problems. However, you cannot log in with either her username or yours from her workstation. What is a likely cause of the problem?",
+    "options": {
+      "A": "Insufficient rights to access the server",
+      "B": "A bad patch cable",
+      "C": "Server down",
+      "D": "Wrong username and password"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A user is experiencing problems logging into a Linux server. He can connect to the Internet over the LAN. Other users in the same area aren't experiencing any problems. You attempt logging in as this user from your workstation with his username and password and don't experience any problems. However, you cannot log in with either his username or yours from his workstation. What is a likely cause of the problem?",
+    "options": {
+      "A": "The Caps Lock key is pressed.",
+      "B": "The network hub is malfunctioning.",
+      "C": "You have a downed server.",
+      "D": "You have a jabbering NIC."
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You receive a call from a user who is having issues connecting to a new VPN. Which is the first step you should take?",
+    "options": {
+      "A": "Test a theory.",
+      "B": "Reboot the workstation.",
+      "C": "Document the solution.",
+      "D": "Identify the symptoms and potential causes."
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A workstation presents an error message to a user. The message states that a duplicate IP address has been detected on the network. After establishing what has changed in the network, what should be the next step using the standard troubleshooting model?",
+    "options": {
+      "A": "Test the result.",
+      "B": "Select the most probable cause.",
+      "C": "Create an action plan.",
+      "D": "Identify the results and effects of the solution."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have gathered information on a network issue and determined the affected areas of the network. What is your next step in resolving this issue?",
+    "options": {
+      "A": "You should implement the best solution for the issue.",
+      "B": "You should test the best solution for the issue.",
+      "C": "You should check to see if there have been any recent changes to this affected part of the network.",
+      "D": "You should consider any negative impact to the network that might be caused by a solution."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A user calls you, reporting a problem logging in to the corporate intranet. You can access the website without problems using the user's username and password. At your request, the user has tried logging in from other workstations but has been unsuccessful. What is the most likely cause of the problem?",
+    "options": {
+      "A": "The user is logging in incorrectly.",
+      "B": "The network is down.",
+      "C": "The intranet server is locked up.",
+      "D": "The server is not routing packets correctly to that user's workstation."
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have just implemented a solution, and you want to celebrate your success. But what should you do next before you start your celebration?",
+    "options": {
+      "A": "Gather more information about the issue.",
+      "B": "Document the issue and the solution that was implemented.",
+      "C": "Test the solution and identify other effects it may have.",
+      "D": "Escalate the issue."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You can ping the local router and web server that a local user is trying to reach, but you cannot reach the web page that resides on that server. From step 2 of the troubleshooting model, what is a possible problem that would lead to this situation?",
+    "options": {
+      "A": "Your network cable is unplugged.",
+      "B": "There is a problem with your browser.",
+      "C": "Your NIC has failed.",
+      "D": "The web server is unplugged."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When troubleshooting an obscure network problem, what physical conditions should be reviewed to make sure the network device is operating correctly? (Choose all that apply.)",
+    "options": {
+      "A": "Excessive heat",
+      "B": "Low/excessive humidity",
+      "C": "ESD problems",
+      "D": "Time of day"
+    },
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is not a basic physical issue that can occur on a network when a user is connected via cable?",
+    "options": {
+      "A": "Crosstalk",
+      "B": "Shorts",
+      "C": "Open impedance mismatch",
+      "D": "DNS configurations"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are troubleshooting a LAN switch and have identified the problem is complex. What is the next step you should take?",
+    "options": {
+      "A": "Escalate the issue.",
+      "B": "Create an action plan.",
+      "C": "Implement the solution.",
+      "D": "Determine the scope of the problem."
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A user calls you complaining that he can't access the corporate intranet web server. You try the same address, and you receive a Host Not Found error. Several minutes later, another user reports the same problem. You can still send email and transfer files to another server. What is the most likely cause of the problem?",
+    "options": {
+      "A": "The hub is unplugged.",
+      "B": "The server is not routing protocols to your workstation.",
+      "C": "The user's workstation is not connected to the network.",
+      "D": "The web server is down."
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You have implemented and tested a solution and identified any other effects the solution may have. What is your next step?",
+    "options": {
+      "A": "Create an action plan.",
+      "B": "Close the case and head home for the day.",
+      "C": "Reboot the Windows server.",
+      "D": "Document the solution."
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Users are reporting that they can access the Internet but not the internal company website. Which of the following is the most likely problem?",
+    "options": {
+      "A": "The DNS entry for the server is non-authoritative.",
+      "B": "The intranet server is down.",
+      "C": "The DNS address handed out by DHCP is incorrect.",
+      "D": "The default gateway is incorrect."
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Several users have complained about the server's poor performance as of late. You know that the memory installed in the server is sufficient. What could you use to determine the source of the problem?",
+    "options": {
+      "A": "Server's NIC link light",
+      "B": "Protocol analyzer",
+      "C": "Performance-monitoring tools",
+      "D": "Server's system log file"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You lose power to your computer room, and the switches in your network do not come back up when everything is brought online. After you have identified the affected areas, established the cause, and escalated this problem, what do you do next?",
+    "options": {
+      "A": "Start to implement a solution to get those users back online ASAP.",
+      "B": "Create an action plan and solution.",
+      "C": "Meet with the emergency response team to determine the next step.",
+      "D": "Copy all the working routers' configurations to the nonworking switches."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which TCP/IP utility is most often used to test whether an IP host is up and functional?",
+    "options": {
+      "A": "ftp",
+      "B": "telnet",
+      "C": "ping",
+      "D": "netstat"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which TCP/IP utility will produce the following result?\nInterface: 199.102.30.152\nInternet Address   Physical Address   Type\n199.102.30.152     A0-ee-00-5b-0e-ac   dynamic",
+    "options": {
+      "A": "arp",
+      "B": "netstat",
+      "C": "tracert",
+      "D": "tcpdump"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which Windows utility can you use to connect to a machine 50 miles away to troubleshoot?",
+    "options": {
+      "A": "Remote Desktop",
+      "B": "netstat",
+      "C": "arp",
+      "D": "Wireshark"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which TCP/IP utility might produce the following output?\nReply from 204.153.163.2: bytes=32 time=1ms TTL=128\nReply from 204.153.163.2: bytes=32 time=1ms TTL=128\nReply from 204.153.163.2: bytes=32 time=1ms TTL=128\nReply from 204.153.163.2: bytes=32 time<10ms TTL=128",
+    "options": {
+      "A": "tracert",
+      "B": "ping",
+      "C": "arp",
+      "D": "ipconfig"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which utility can you use to find the MAC and TCP/IP addresses of your Windows workstation?",
+    "options": {
+      "A": "ping",
+      "B": "ipconfig",
+      "C": "ipconfig /all",
+      "D": "tracert"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which ping commands will verify that your local TCP/IP interface is working? (Choose all that apply.)",
+    "options": {
+      "A": "ping 204.153.163.2",
+      "B": "ping 127.0.0.1",
+      "C": "ping localif",
+      "D": "ping localhost",
+      "E": "ping iphost"
+    },
+    "correct": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which newer Linux command was added recently to configure IP and interface parameters?",
+    "options": {
+      "A": "netstat",
+      "B": "ipconfig",
+      "C": "ip",
+      "D": "ifconfig"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to find a NIC’s specific MAC address and IP address. Which command-line tool can you use to find this information without physically going to the computer?",
+    "options": {
+      "A": "ping",
+      "B": "ipconfig",
+      "C": "arp",
+      "D": "netstat",
+      "E": "ftp"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which netstat utility switch displays all connections and listening ports?",
+    "options": {
+      "A": "-a",
+      "B": "-f",
+      "C": "-p",
+      "D": "-t"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Wireshark is an example of which of the following?",
+    "options": {
+      "A": "Throughput tester",
+      "B": "Protocol analyzer",
+      "C": "Remote connection tool",
+      "D": "IDS"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which utility produces output similar to the following?\n1  110 ms  96 ms  107 ms fgo1.corpcomm.net [209.74.93.10]\n2  96 ms  126 ms  95 ms someone.corpcomm.net [209.74.93.1]\n3  113 ms  119 ms  112 ms Serial5-1-1.GW2.MSP1.alter.net     [157.130.100.185]\n4  133 ms  123 ms  126 ms 152.ATM3-0.XR2.CHI6.ALTER.NET      [146.188.209.126]\n5  176 ms  133 ms  129 ms 290.ATM2-0.TR2.CHI4.ALTER.NET   [146.188.209.10]\n6  196 ms  184 ms  218 ms 106.ATM7-0.TR2.SCL1.ALTER.NET   [146.188.136.162]\n7  182 ms  187 ms  187 ms 298.ATM7-0.XR2.SJC1.ALTER.NET   [146.188.146.61]\n8  204 ms  176 ms  186 ms 192.ATM3-0-0.SAN-JOSE9- GW.ALTER.NET [146.188.144.133]\n9  202 ms  198 ms  212 ms atm3-0-622M.cr1.sjc.globalcenter.net [206.57.16.17]\n10 209 ms  202 ms  195 ms pos3-1-155M.br4.SJC.globalcenter.net [206.132.150.98]\n11 190 ms   *   191 ms pos0-0-0-155M.hr3.SNV.globalcenter.net [206.221.5.93]\n12 195 ms  188 ms  188 ms pos4-1-0-   155M.hr2.SNV.globalcenter.net [206.132.150.206]\n13 198 ms  202 ms  197 ms www10.yahoo.com [204.71.200.75]",
+    "options": {
+      "A": "arp",
+      "B": "tracert",
+      "C": "tcpdump",
+      "D": "netstat"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are the network administrator. A user calls you complaining that the performance of the intranet web server is sluggish. When you try to ping the server, it takes several seconds for the server to respond. You suspect that the problem is related to a router that is seriously overloaded. Which workstation utility could you use to find out which router is causing this problem?",
+    "options": {
+      "A": "netstat",
+      "B": "tracert",
+      "C": "ping",
+      "D": "arp"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which ipconfig switch will display the most complete listing of IP configuration information for a station?",
+    "options": {
+      "A": "/all",
+      "B": "/renew",
+      "C": "/release",
+      "D": "/?"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which utility will display a list of all the routers that a packet passes through on the way to an IP destination?",
+    "options": {
+      "A": "netstat",
+      "B": "tracert",
+      "C": "ping",
+      "D": "arp"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are inspecting traffic to and from your workstation. When you issue the netstat command, you don’t see any UDP entries. What could be the reason for a lack of UDP entries?",
+    "options": {
+      "A": "UDP is connectionless.",
+      "B": "UDP is connection-based.",
+      "C": "There are no UDP ports listening.",
+      "D": "There is no UDP traffic."
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which arp command can you use to display the currently cached ARP entries?",
+    "options": {
+      "A": "arp",
+      "B": "arp -all",
+      "C": "arp -a",
+      "D": "ipconfig -arp",
+      "E": "arp -ipconfig"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which command-line tool would best be used to verify DNS functionality in Linux?",
+    "options": {
+      "A": "netstat",
+      "B": "dig",
+      "C": "icmp",
+      "D": "arp"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following arp utility switches perform the same function? (Choose all that apply.)",
+    "options": {
+      "A": "-g",
+      "B": "-A",
+      "C": "-d",
+      "D": "-a"
+    },
+    "correct": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is not a chain type used by iptables?",
+    "options": {
+      "A": "Forward",
+      "B": "Backward",
+      "C": "Input",
+      "D": "Output"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which command captures traffic on all interfaces?",
+    "options": {
+      "A": "tcpdump -i any",
+      "B": "tcpdump -i eth0",
+      "C": "tcpdump host 192.168.5.5",
+      "D": "tcpdump host all"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which element of the CIA triad ensures that information can always be accessed?",
+    "options": {
+      "A": "Accessibility",
+      "B": "Integrity",
+      "C": "Confidentiality",
+      "D": "Availability"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are implementing an encryption key for backups to tape. Which encryption concept is being exercised?",
+    "options": {
+      "A": "Data in use",
+      "B": "Data in transit",
+      "C": "Data at rest",
+      "D": "Data on tape"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is not an external threat?",
+    "options": {
+      "A": "Ransomware via a threat actor",
+      "B": "Denial of service",
+      "C": "Virus via an unknown USB drive",
+      "D": "Exploitation of a web server"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The system used to create a common naming scheme for vulnerabilities is called?",
+    "options": {
+      "A": "CVE",
+      "B": "Zero day",
+      "C": "IAM",
+      "D": "MFA"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which security concept dictates that a user be given only the permission to perform their job?",
+    "options": {
+      "A": "Zero trust",
+      "B": "Role-based access",
+      "C": "Least privilege",
+      "D": "Defense in depth"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which principle describes the process of verification of a user's identity?",
+    "options": {
+      "A": "Authentication",
+      "B": "Authorization",
+      "C": "Accounting",
+      "D": "Auditing"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which authentication system is an open standard originally proposed by the Internet Engineering Task Force (IETF)?",
+    "options": {
+      "A": "RADIUS",
+      "B": "TACACS+",
+      "C": "Kerberos",
+      "D": "LDAP"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol is used with single sign-on (SSO) to exchange credentials in the form of a claim?",
+    "options": {
+      "A": "LDAP",
+      "B": "SAML",
+      "C": "AD",
+      "D": "Kerberos"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which principle describes the process of verifying a user's permissions?",
+    "options": {
+      "A": "Authentication",
+      "B": "Authorization",
+      "C": "Accounting",
+      "D": "Auditing"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What protocol and port number does LDAP use for directory lookups?",
+    "options": {
+      "A": "TCP/389",
+      "B": "TCP/1812",
+      "C": "UDP/389",
+      "D": "UDP/1812"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which option accurately describes an exploit?",
+    "options": {
+      "A": "A known weakness in the operating system",
+      "B": "A configuration that weakens the security of the operating system",
+      "C": "A known operating system security flaw",
+      "D": "A technique used to gain unauthorized access"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following occurs when a threat agent takes advantage of a weakness and uses it to advance an attack?",
+    "options": {
+      "A": "Threat",
+      "B": "Risk",
+      "C": "Vulnerability",
+      "D": "Exploit"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are seeing a large number of packets for UDP port 1813 on the network. What is this traffic likely to be for?",
+    "options": {
+      "A": "RADIUS authentication",
+      "B": "RADIUS accounting",
+      "C": "TACACS+ authentication",
+      "D": "LDAP queries"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You receive an SSL error when you visit a network appliance that has a self-signed certificate in use. What can you do to fix the issue?",
+    "options": {
+      "A": "Add the network appliance public certificate to the root CA CRL.",
+      "B": "Add the network appliance public certificate to the root CA AIA.",
+      "C": "Add the network appliance public certificate to the trusted root CA certificate store.",
+      "D": "Add the network appliance private certificate to the trusted root CA certificate store."
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which factor of authentication requires you to present something that is unique to you and can't be copied?",
+    "options": {
+      "A": "Password",
+      "B": "Signature",
+      "C": "Fingerprint",
+      "D": "Location"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which European law protects consumers?",
+    "options": {
+      "A": "SOX",
+      "B": "HIPAA",
+      "C": "GLBA",
+      "D": "GDPR"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are asked to secure records and prevent them from being viewed off-site. Which authorization method would prevent someone from viewing records off-site?",
+    "options": {
+      "A": "Least privilege",
+      "B": "Geofencing",
+      "C": "RBAC",
+      "D": "IAM"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which PKI element is used to check to see if a certificate has been revoked?",
+    "options": {
+      "A": "CRL",
+      "B": "Root CA",
+      "C": "AIA",
+      "D": "Private key"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are designing a security strategy for a cloud-based application. You want to make it simple for other administrators to grant permissions without complexity. Which security strategy should you implement?",
+    "options": {
+      "A": "TACACS+",
+      "B": "PKI",
+      "C": "RBAC",
+      "D": "RADIUS"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which protocol uses public/private keys for encryption?",
+    "options": {
+      "A": "AIA",
+      "B": "TLS",
+      "C": "CRL",
+      "D": "IAM"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is not a technology-based attack?",
+    "options": {
+      "A": "DoS",
+      "B": "Rogue DHCP",
+      "C": "Shoulder surfing",
+      "D": "Malware"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A command-and-control server is a part of which of the following attacks?",
+    "options": {
+      "A": "DDoS",
+      "B": "Password attacks",
+      "C": "Shoulder surfing",
+      "D": "Malware"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which attack involves the attacker impersonating both sides of a conversation between two hosts?",
+    "options": {
+      "A": "On-path attack",
+      "B": "Deauthentication",
+      "C": "DoS",
+      "D": "Spoofing"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of attack will attempt to configure hosts with a malicious default gateway?",
+    "options": {
+      "A": "DoS",
+      "B": "VLAN hopping",
+      "C": "Deauthentication",
+      "D": "Rogue DHCP"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "In which of the following does the attacker (and his bots) send a UDP packet to vulnerable NTP servers that requests that a large amount of data (megabytes worth of traffic) be sent to the DDoS's target IP address?",
+    "options": {
+      "A": "Distributed",
+      "B": "NTP amplification",
+      "C": "Reflective",
+      "D": "DNS amplification"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following was previously known as a man-in-the-middle attack?",
+    "options": {
+      "A": "VLAN hopping",
+      "B": "On-path attack",
+      "C": "DoS attack",
+      "D": "Deauthentication attack"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Double tagging is a part of which of the following attacks?",
+    "options": {
+      "A": "VLAN hopping",
+      "B": "On-path attack",
+      "C": "DDoS",
+      "D": "Malware"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is the process of adopting another system's MAC address for the purpose of receiving data meant for that system?",
+    "options": {
+      "A": "Rogue DHCP",
+      "B": "ARP spoofing",
+      "C": "IP spoofing",
+      "D": "DNS spoofing"
+    },
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following is connected to your wired infrastructure without your knowledge?",
+    "options": {
+      "A": "Rogue AP",
+      "B": "Command-and-control server",
+      "C": "Malware",
+      "D": "Botnet"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which of the following uses the same SSID as your AP?",
+    "options": {
+      "A": "Rogue AP",
+      "B": "Rogue DHCP",
+      "C": "Evil twin",
+      "D": "DNS poisoning"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What attack vector can be used for an on-path attack?",
+    "options": {
+      "A": "DHCP",
+      "B": "DNS",
+      "C": "Wireless",
+      "D": "All of the above"
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which attack can be used on a native VLAN?",
+    "options": {
+      "A": "Double tagging",
+      "B": "VLAN traversal",
+      "C": "Trunk popping",
+      "D": "Denial of service"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which form of social engineering is nothing more than looking over someone's shoulder while they enter or view sensitive information?",
+    "options": {
+      "A": "Shoulder surfing",
+      "B": "Phishing",
+      "C": "Tailgating",
+      "D": "Whaling"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to protect your users from Trojans, viruses, and phishing emails. What should you implement?",
+    "options": {
+      "A": "Multifactor authentication",
+      "B": "Software firewalls",
+      "C": "Antimalware",
+      "D": "Antivirus"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What can you use to protect against spoofing of internal IP addresses on the perimeter of your network?",
+    "options": {
+      "A": "Access control lists",
+      "B": "Intrusion detection systems",
+      "C": "Transport Layer Security",
+      "D": "Host intrusion detection systems"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are implementing a public guest wireless network and require that users accept an acceptable use policy (AUP). What should you implement to accomplish the goal?",
+    "options": {
+      "A": "ACLs",
+      "B": "MAC filtering",
+      "C": "Captive portal",
+      "D": "802.1X"
+    },
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You are implementing a wireless network and need to make sure that only hosts that have up-to-date antivirus protection can join. Which technology should you implement?",
+    "options": {
+      "A": "NAC",
+      "B": "802.1X",
+      "C": "EAP-TLS",
+      "D": "ACLs"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which statement is correct about applying ACLs to an interface?",
+    "options": {
+      "A": "An access control list can be applied in only one direction.",
+      "B": "An access control list can be applied only to a single protocol.",
+      "C": "An access control list can be applied only to a single port.",
+      "D": "All of the above."
+    },
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "As part of your training program, you're trying to educate users on the importance of security. You explain to them that not every attack depends on implementing advanced technological methods. Some attacks, you explain, take advantage of human shortcomings to gain access that should otherwise be denied. Which term do you use to describe attacks of this type?",
+    "options": {
+      "A": "Social engineering",
+      "B": "IDS",
+      "C": "Perimeter security",
+      "D": "Biometrics"
+    },
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "multi_choice",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You've discovered that credentials to a specific application have been stolen. The application is accessed from only one computer on the network. Which type of attack is this most likely to be?",
+    "options": {
+      "A": "On-path attack",
+      "B": "Zero day",
+      "C": "Denial of service (DoS)",
+      "D": "ARP spoofing"
+    },
+    "correct": [
+      "A"
+    ]
+  }
+]

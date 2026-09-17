@@ -1,0 +1,2525 @@
+[
+  {
+    "chapter": 1,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A _____ is a network typically found in your home or workplace.",
+    "blanks": [
+      "LAN"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A _____ connection connects your home or workplace to the Internet.",
+    "blanks": [
+      "WAN"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A _____ topology is also known as a hub-and-spoke topology.",
+    "blanks": [
+      "Star"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The term ____ is used to describe the service-related entry point for a provider.",
+    "blanks": [
+      "Demarc"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The ______ ______ model is used to condense the core and distribution layers into one layer.",
+    "blanks": [
+      "Collapsed-core"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A _____ is a virtualized piece of hardware that connects the virtual machine operating system to the network.",
+    "blanks": [
+      "vNIC"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Fibre Channel is typically found inside a _____.",
+    "blanks": [
+      "SAN"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The term used to reference the smallest piece of the network is ______ ______.",
+    "blanks": [
+      "Network segment"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The _____ technology uses labels to switch traffic.",
+    "blanks": [
+      "MPLS"
+    ]
+  },
+  {
+    "chapter": 1,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The _____ _____ architecture is found in data centers to provide low-latency connectivity to servers.",
+    "blanks": [
+      "Spine leaf"
+    ]
+  },
+  {
+    "chapter": 2,
+    "type": "fill_blank",
+    "random_order": false,
+    "has_images": false,
+    "prompt": "Fill in the OSI layers in order, from layer 7 to layer 1.",
+    "blanks": [
+      "Application",
+      "Presentation",
+      "Session",
+      "Transport",
+      "Network",
+      "Data Link",
+      "Physical"
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "table",
+    "random_order": false,
+    "has_images": false,
+    "prompt": "Fill out the respective EIA/TIA 568A wiring standard.",
+    "header": [
+      "Pin",
+      "Wire"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "Pin 1",
+          "_"
+        ],
+        "answers": {
+          "1": "White/Green"
+        }
+      },
+      {
+        "cells": [
+          "Pin 2",
+          "_"
+        ],
+        "answers": {
+          "1": "Green"
+        }
+      },
+      {
+        "cells": [
+          "Pin 3",
+          "_"
+        ],
+        "answers": {
+          "1": "White/Orange"
+        }
+      },
+      {
+        "cells": [
+          "Pin 4",
+          "_"
+        ],
+        "answers": {
+          "1": "Blue"
+        }
+      },
+      {
+        "cells": [
+          "Pin 5",
+          "_"
+        ],
+        "answers": {
+          "1": "White/Blue"
+        }
+      },
+      {
+        "cells": [
+          "Pin 6",
+          "_"
+        ],
+        "answers": {
+          "1": "Orange"
+        }
+      },
+      {
+        "cells": [
+          "Pin 7",
+          "_"
+        ],
+        "answers": {
+          "1": "White/Brown"
+        }
+      },
+      {
+        "cells": [
+          "Pin 8",
+          "_"
+        ],
+        "answers": {
+          "1": "Brown"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "type": "table",
+    "random_order": false,
+    "has_images": false,
+    "prompt": "Fill out the respective EIA/TIA 568B wiring standard.",
+    "header": [
+      "Pin",
+      "Wire"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "Pin 1",
+          "_"
+        ],
+        "answers": {
+          "1": "White/Orange"
+        }
+      },
+      {
+        "cells": [
+          "Pin 2",
+          "_"
+        ],
+        "answers": {
+          "1": "Orange"
+        }
+      },
+      {
+        "cells": [
+          "Pin 3",
+          "_"
+        ],
+        "answers": {
+          "1": "White/Green"
+        }
+      },
+      {
+        "cells": [
+          "Pin 4",
+          "_"
+        ],
+        "answers": {
+          "1": "Blue"
+        }
+      },
+      {
+        "cells": [
+          "Pin 5",
+          "_"
+        ],
+        "answers": {
+          "1": "White/Blue"
+        }
+      },
+      {
+        "cells": [
+          "Pin 6",
+          "_"
+        ],
+        "answers": {
+          "1": "Green"
+        }
+      },
+      {
+        "cells": [
+          "Pin 7",
+          "_"
+        ],
+        "answers": {
+          "1": "White/Brown"
+        }
+      },
+      {
+        "cells": [
+          "Pin 8",
+          "_"
+        ],
+        "answers": {
+          "1": "Brown"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The decimal value of _____ is equal to the 0xF in hexadecimal.",
+    "blanks": [
+      "16"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The decimal value of 5 equals _____ in binary.",
+    "blanks": [
+      "0101"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The decimal value of 14 equals _____ in hexadecimal.",
+    "blanks": [
+      "0xE"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The binary value of 0111 equals _____ in decimal.",
+    "blanks": [
+      "7"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The binary value of _______ equals 28 in decimal.",
+    "blanks": [
+      "00011100"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The hexadecimal value of _____ equals 16 in decimal.",
+    "blanks": [
+      "0xF"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The decimal value of _____ equals 0xb in hexadecimal.",
+    "blanks": [
+      "0011"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The hexadecimal value of 0xE equals _____ in binary.",
+    "blanks": [
+      "1101"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The decimal value of 177 equals ______ in binary.",
+    "blanks": [
+      "10110001"
+    ]
+  },
+  {
+    "chapter": 4,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The decimal value of 208 equals ______ in hexadecimal.",
+    "blanks": [
+      "0xD0"
+    ]
+  },
+  {
+    "chapter": 5,
+    "type": "table",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Complete the table by filling in the appropriate layer of the OSI or hub, switch, or router device.",
+    "header": [
+      "Description",
+      "Device or OSI layer"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "This device sends and receives information about the Network layer.",
+          "_"
+        ],
+        "answers": {
+          "1": "Router"
+        }
+      },
+      {
+        "cells": [
+          "This layer creates a virtual circuit before transmitting between two end stations.",
+          "_"
+        ],
+        "answers": {
+          "1": "Transport"
+        }
+      },
+      {
+        "cells": [
+          "A layer 3 switch or multilayer switch.",
+          "_"
+        ],
+        "answers": {
+          "1": "Router"
+        }
+      },
+      {
+        "cells": [
+          "This device uses hardware addresses to filter a network.",
+          "_"
+        ],
+        "answers": {
+          "1": "Bridge or switch"
+        }
+      },
+      {
+        "cells": [
+          "Ethernet is defined at these layers.",
+          "_"
+        ],
+        "answers": {
+          "1": "Data Link and Physical"
+        }
+      },
+      {
+        "cells": [
+          "This layer supports flow control and sequencing.",
+          "_"
+        ],
+        "answers": {
+          "1": "Transport"
+        }
+      },
+      {
+        "cells": [
+          "This device can measure the distance to a remote network.",
+          "_"
+        ],
+        "answers": {
+          "1": "Router"
+        }
+      },
+      {
+        "cells": [
+          "Logical addressing is used at this layer.",
+          "_"
+        ],
+        "answers": {
+          "1": "Network"
+        }
+      },
+      {
+        "cells": [
+          "Hardware addresses are defined at this layer.",
+          "_"
+        ],
+        "answers": {
+          "1": "Data Link (MAC sublayer)"
+        }
+      },
+      {
+        "cells": [
+          "This device creates one big collision domain and one large broadcast domain.",
+          "_"
+        ],
+        "answers": {
+          "1": "Hub"
+        }
+      },
+      {
+        "cells": [
+          "This device creates many smaller collision domains, but the network is still one large broadcast domain.",
+          "_"
+        ],
+        "answers": {
+          "1": "Switch or bridge"
+        }
+      },
+      {
+        "cells": [
+          "This device can never run full-duplex.",
+          "_"
+        ],
+        "answers": {
+          "1": "Hub"
+        }
+      },
+      {
+        "cells": [
+          "This device breaks up collision domains and broadcast domains.",
+          "_"
+        ],
+        "answers": {
+          "1": "Router"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "type": "table",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Fill in accompanying Transport layer protocol and the port number.",
+    "header": [
+      "Service protocol",
+      "Transport protocol",
+      "Port number"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "SFTP",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "22"
+        }
+      },
+      {
+        "cells": [
+          "Telnet",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "23"
+        }
+      },
+      {
+        "cells": [
+          "SMTP",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "25"
+        }
+      },
+      {
+        "cells": [
+          "NTP",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "UDP",
+          "2": "123"
+        }
+      },
+      {
+        "cells": [
+          "LDAP",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "389"
+        }
+      },
+      {
+        "cells": [
+          "TFTP",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "UDP",
+          "2": "69"
+        }
+      },
+      {
+        "cells": [
+          "RDP",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "3389"
+        }
+      },
+      {
+        "cells": [
+          "Syslog",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "UDP",
+          "2": "514"
+        }
+      },
+      {
+        "cells": [
+          "SMB",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "445"
+        }
+      },
+      {
+        "cells": [
+          "IMAP",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "143"
+        }
+      },
+      {
+        "cells": [
+          "HTTP",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "80"
+        }
+      },
+      {
+        "cells": [
+          "HTTPS",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "443"
+        }
+      },
+      {
+        "cells": [
+          "LDAPS",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "636"
+        }
+      },
+      {
+        "cells": [
+          "SMTPS",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "587"
+        }
+      },
+      {
+        "cells": [
+          "SSH",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "22"
+        }
+      },
+      {
+        "cells": [
+          "SQL",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "1": "TCP",
+          "2": "1433"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the valid range used for a Class C private IP address?",
+    "blanks": [
+      "The class C private range is 192.168.0.0 through 192.168.255.255."
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Name some of the benefits of IPv6 over IPv4.",
+    "blanks": [
+      "IPv6 has the following characteristics, among others, that make it preferable to IPv4: more available addresses, simpler header, options for authentication, and other security."
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the term for the autoconfiguration technology responsible for addresses that start with 169.254?",
+    "blanks": [
+      "Automatic Private IP Addressing (APIPA) is the technology that results in hosts automatically configuring themselves with addresses that begin with 169.254."
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What defines a unicast address?",
+    "blanks": [
+      "An IP address assigned to an interface, considered a one-to-one communication."
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What defines a multicast address?",
+    "blanks": [
+      "One-to-many address."
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the name for a 48-bit (6-byte) numerical address physically assigned to a network interface, such as a NIC?",
+    "blanks": [
+      "A MAC address, sometimes called a hardware address or even a burned-in address."
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "IPv6 has how many more bits, compared to addresses in IPv4?",
+    "blanks": [
+      "IPv6 has 128-bit (16-octet) addresses, compared to IPv4's 32-bit (4-octet) addresses, so 96 more bits than IPv4."
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the private address range for Class B networks?",
+    "blanks": [
+      "172.16.0.0 through 172.31.255.255."
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the Class C range of values for the first octet in decimal and in binary?",
+    "blanks": [
+      "192-223, 110xxxxx."
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is the 127.0.0.1 address used for?",
+    "blanks": [
+      "Loopback or diagnostics. Actually, the full range of 127.0.0.1 through 127.255.255.254 is referred to as the loopback address."
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of packet is addressed and delivered to only a single interface?",
+    "blanks": [
+      "Unicast"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of address is used just like a regular public routable address in IPv4?",
+    "blanks": [
+      "Global unicast"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of address is not meant to be routed?",
+    "blanks": [
+      "Link-local"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of address is not meant to be routed to the Internet but is still globally unique?",
+    "blanks": [
+      "Unique local (used to be called site-local)"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of address is meant to be delivered to multiple interfaces?",
+    "blanks": [
+      "Multicast"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which type of address identifies multiple interfaces, but packets are delivered only to the first address it finds?",
+    "blanks": [
+      "Anycast"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which addressing type is also referred to as one-to-nearest?",
+    "blanks": [
+      "Anycast"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "IPv4 had a loopback address of 127.0.0.1. What is the IPv6 loopback address?",
+    "blanks": [
+      "::1"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What does a link-local address always start with?",
+    "blanks": [
+      "FE80::/10"
+    ]
+  },
+  {
+    "chapter": 7,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What does a unique local unicast range start with?",
+    "blanks": [
+      "FC00::/7"
+    ]
+  },
+  {
+    "chapter": 8,
+    "type": "table",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "This lab will help you get familiar with the CIDR subnet mask. Fill in the blanks in the table.",
+    "header": [
+      "CIDR",
+      "Subnet mask"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "/13",
+          "_"
+        ],
+        "answers": {
+          "1": "255.248.0.0"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "255.0.0.0"
+        ],
+        "answers": {
+          "0": "/8"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "255.254.0.0"
+        ],
+        "answers": {
+          "0": "/15"
+        }
+      },
+      {
+        "cells": [
+          "/30",
+          "_"
+        ],
+        "answers": {
+          "1": "255.255.255.252"
+        }
+      },
+      {
+        "cells": [
+          "/22",
+          "_"
+        ],
+        "answers": {
+          "1": "255.255.252.0"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "255.255.255.192"
+        ],
+        "answers": {
+          "0": "/26"
+        }
+      },
+      {
+        "cells": [
+          "/28",
+          "_"
+        ],
+        "answers": {
+          "1": "255.255.255.240"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "240.0.0.0"
+        ],
+        "answers": {
+          "0": "/4"
+        }
+      },
+      {
+        "cells": [
+          "/18",
+          "_"
+        ],
+        "answers": {
+          "1": "255.255.192.0"
+        }
+      },
+      {
+        "cells": [
+          "/27",
+          "_"
+        ],
+        "answers": {
+          "1": "255.255.255.224"
+        }
+      },
+      {
+        "cells": [
+          "/29",
+          "_"
+        ],
+        "answers": {
+          "1": "255.255.255.248"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "255.255.248.0"
+        ],
+        "answers": {
+          "0": "/21"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "255.224.0.0"
+        ],
+        "answers": {
+          "0": "/11"
+        }
+      },
+      {
+        "cells": [
+          "/25",
+          "_"
+        ],
+        "answers": {
+          "1": "255.255.255.128"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "255.192.0.0"
+        ],
+        "answers": {
+          "0": "/10"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": 9,
+    "type": "fill_blank",
+    "random_order": false,
+    "has_images": true,
+    "prompt": "When a packet is sent from Host_A to Host_C, Host_A will use ARP to determine the MAC address of ____.",
+    "blanks": [
+      "Interface E0"
+    ],
+    "image": "6.png"
+  },
+  {
+    "chapter": 9,
+    "type": "fill_blank",
+    "random_order": false,
+    "has_images": true,
+    "prompt": "When a packet is sent from Host_C to Host_D, Host_C will use ARP to determine the MAC address of ____.",
+    "blanks": [
+      "Host_D"
+    ],
+    "image": "6.png"
+  },
+  {
+    "chapter": 9,
+    "type": "fill_blank",
+    "random_order": false,
+    "has_images": true,
+    "prompt": "When a packet is routed through Lab_A router destined for 172.16.30.3, interface _____ will send an ARP request for _____.",
+    "blanks": [
+      "E2",
+      "Host_D"
+    ],
+    "image": "6.png"
+  },
+  {
+    "chapter": 9,
+    "type": "fill_blank",
+    "random_order": false,
+    "has_images": true,
+    "prompt": "Host_A sends a packet to Host_C; after passing through the router the source IP address will be ______ and the destination IP address will be _____.",
+    "blanks": [
+      "172.16.10.2",
+      "172.16.30.2"
+    ],
+    "image": "6.png"
+  },
+  {
+    "chapter": 9,
+    "type": "fill_blank",
+    "random_order": false,
+    "has_images": true,
+    "prompt": "Host_A sends a packet to 172.16.20.2; interface ____ will send an ARP request to ______.",
+    "blanks": [
+      "E1",
+      "Host_B"
+    ],
+    "image": "6.png"
+  },
+  {
+    "chapter": 10,
+    "type": "table",
+    "random_order": false,
+    "has_images": true,
+    "prompt": "Using the following figure, converge the Lab_A routing table by filling in the blanks for the network ID, exit interface, and metric (hop count). The table is prepopulated with the directly connected network IDs, exit interface, and metric.",
+    "header": [
+      "Network ID",
+      "Exit Interface",
+      "Metric"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "10.0.10.0/24",
+          "E0",
+          "0"
+        ],
+        "answers": {}
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.20.0/24",
+          "1": "E0",
+          "2": "1"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.30.0/24",
+          "1": "E0",
+          "2": "1"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.40.0/24",
+          "1": "E0",
+          "2": "2"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.50.0/24",
+          "1": "E0",
+          "2": "2"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.60.0/24",
+          "1": "E0",
+          "2": "3"
+        }
+      }
+    ],
+    "image": "7.png"
+  },
+  {
+    "chapter": 10,
+    "type": "table",
+    "random_order": false,
+    "has_images": true,
+    "prompt": "Using the following figure, converge the Lab_B routing table by filling in the blanks for the network ID, exit interface, and metric (hop count). The table is prepopulated with the directly connected network IDs, exit interface, and metric.",
+    "header": [
+      "Network ID",
+      "Exit Interface",
+      "Metric"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "10.0.10.0/24",
+          "E0",
+          "0"
+        ],
+        "answers": {}
+      },
+      {
+        "cells": [
+          "10.0.30.0/24",
+          "E1",
+          "0"
+        ],
+        "answers": {}
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.20.0/24",
+          "1": "E0",
+          "2": "1"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.40.0/24",
+          "1": "E0",
+          "2": "2"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.50.0/24",
+          "1": "E0",
+          "2": "2"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.60.0/24",
+          "1": "E0",
+          "2": "3"
+        }
+      }
+    ],
+    "image": "7.png"
+  },
+  {
+    "chapter": 10,
+    "type": "table",
+    "random_order": false,
+    "has_images": true,
+    "prompt": "Using the following figure, converge the Lab_C routing table by filling in the blanks for the network ID, exit interface, and metric (hop count). The table is prepopulated with the directly connected network IDs, exit interface, and metric.",
+    "header": [
+      "Network ID",
+      "Exit Interface",
+      "Metric"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "10.0.10.0/24",
+          "E0",
+          "0"
+        ],
+        "answers": {}
+      },
+      {
+        "cells": [
+          "10.0.30.0/24",
+          "S0",
+          "0"
+        ],
+        "answers": {}
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.20.0/24",
+          "1": "E0",
+          "2": "1"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.40.0/24",
+          "1": "S0",
+          "2": "1"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.50.0/24",
+          "1": "S0",
+          "2": "1"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.60.0/24",
+          "1": "S0",
+          "2": "2"
+        }
+      }
+    ],
+    "image": "7.png"
+  },
+  {
+    "chapter": 10,
+    "type": "table",
+    "random_order": false,
+    "has_images": true,
+    "prompt": "Using the following figure, converge the Lab_D routing table by filling in the blanks for the network ID, exit interface, and metric (hop count). The table is prepopulated with the directly connected network IDs, exit interface, and metric.",
+    "header": [
+      "Network ID",
+      "Exit Interface",
+      "Metric"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "10.0.30.0/24",
+          "S0",
+          "0"
+        ],
+        "answers": {}
+      },
+      {
+        "cells": [
+          "10.0.40.0/24",
+          "E0",
+          "0"
+        ],
+        "answers": {}
+      },
+      {
+        "cells": [
+          "10.0.50.0/24",
+          "S1",
+          "0"
+        ],
+        "answers": {}
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.10.0/24",
+          "1": "S0",
+          "2": "1"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.20.0/24",
+          "1": "S0",
+          "2": "2"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.30.0/24",
+          "1": "S1",
+          "2": "1"
+        }
+      }
+    ],
+    "image": "7.png"
+  },
+  {
+    "chapter": 10,
+    "type": "table",
+    "random_order": false,
+    "has_images": true,
+    "prompt": "Using the following figure, converge the Lab_E routing table by filling in the blanks for the network ID, exit interface, and metric (hop count). The table is prepopulated with the directly connected network IDs, exit interface, and metric.",
+    "header": [
+      "Network ID",
+      "Exit Interface",
+      "Metric"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "10.0.50.0/24",
+          "S0",
+          "0"
+        ],
+        "answers": {}
+      },
+      {
+        "cells": [
+          "10.0.60.0/24",
+          "E0",
+          "0"
+        ],
+        "answers": {}
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.40.0/24",
+          "1": "S0",
+          "2": "1"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.30.0/24",
+          "1": "S0",
+          "2": "1"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.10.0/24",
+          "1": "S0",
+          "2": "2"
+        }
+      },
+      {
+        "cells": [
+          "_",
+          "_",
+          "_"
+        ],
+        "answers": {
+          "0": "10.0.20.0/24",
+          "1": "S0",
+          "2": "3"
+        }
+      }
+    ],
+    "image": "7.png"
+  },
+  {
+    "chapter": 11,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A switch will flood all the interface ports on a switch, if the _______ MAC address is not in the forward/filter table.",
+    "blanks": [
+      "Destination"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Switches learn the MAC addresses by the ______ MAC address of the frame.",
+    "blanks": [
+      "Source"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "_______ _______ _______ prevents loops in switched networks.",
+    "blanks": [
+      "Spanning Tree Protocol"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "______ is an IEEE protocol used for trunk links.",
+    "blanks": [
+      "802.1Q"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "______ delivers 25.5 watts for PoE.",
+    "blanks": [
+      "802.3at"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Hosts are typically connected to ______ links on a switch.",
+    "blanks": [
+      "Access"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "________ is the default state for 802.1D STP ports.",
+    "blanks": [
+      "Blocking"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "It takes ___ ______ to converge STP from blocking to forwarding.",
+    "blanks": [
+      "50 seconds"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "_______/_______ decisions are based on the MAC address table.",
+    "blanks": [
+      "Forward/filter"
+    ]
+  },
+  {
+    "chapter": 11,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "_____ prioritizes traffic by at the Data Link layer.",
+    "blanks": [
+      "QoS"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "5G cellular provides up to _____ speeds to subscribers.",
+    "blanks": [
+      "10 Gbps"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The IEEE 802.11a standard operates on the _____ frequency band.",
+    "blanks": [
+      "5 GHz"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The IEEE ______ standard operates at speeds up to 10 Gbps.",
+    "blanks": [
+      "802.11ax"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The IEEE 802.11g standard operates on the _____ frequency band.",
+    "blanks": [
+      "GHz"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The IEEE 802.11 standard operates with the contention mechanism of _________.",
+    "blanks": [
+      "CSMA/CA"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The MIMO mechanism to increase data throughput was first introduced in the IEEE ______ standard.",
+    "blanks": [
+      "802.11n"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A _____ antenna is a directional antenna.",
+    "blanks": [
+      "Yagi antenna"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "____ _____ mode is also called an independent basic service set (IBSS).",
+    "blanks": [
+      "Ad hoc"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A ____ _____ should be performed before and after deployment of wireless equipment.",
+    "blanks": [
+      "Site survey"
+    ]
+  },
+  {
+    "chapter": 12,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "_______ wireless attacks are used to gather information.",
+    "blanks": [
+      "Passive"
+    ]
+  },
+  {
+    "chapter": 13,
+    "type": "table",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Complete the table by filling in the appropriate term for each definition.",
+    "header": [
+      "Definition",
+      "Term"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "Only traffic to the office goes through the VPN. Internet traffic does not.",
+          "_"
+        ],
+        "answers": {
+          "1": "Client-to-site VPN"
+        }
+      },
+      {
+        "cells": [
+          "Only the traffic between the user and the office will go through the tunnel.",
+          "_"
+        ],
+        "answers": {
+          "1": "Split tunnel"
+        }
+      },
+      {
+        "cells": [
+          "All traffic goes through the VPN, including Internet traffic.",
+          "_"
+        ],
+        "answers": {
+          "1": "Full tunnel"
+        }
+      },
+      {
+        "cells": [
+          "All traffic goes through the VPN tunnel.",
+          "_"
+        ],
+        "answers": {
+          "1": "Site-to-site VPN"
+        }
+      },
+      {
+        "cells": [
+          "Requires only a browser that can perform SSL/TLS.",
+          "_"
+        ],
+        "answers": {
+          "1": "Clientless VPN"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": 14,
+    "type": "table",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Complete the table by filling in the appropriate term for each definition.",
+    "header": [
+      "Description",
+      "Term"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "The percentage of time the CPU spends executing a non-idle thread.",
+          "_"
+        ],
+        "answers": {
+          "1": "Processor\\% Processor Time"
+        }
+      },
+      {
+        "cells": [
+          "The amount of physical memory, in megabytes, currently available.",
+          "_"
+        ],
+        "answers": {
+          "1": "Memory\\Available Mbytes"
+        }
+      },
+      {
+        "cells": [
+          "The percentage of bandwidth the NIC is capable of that is currently being used.",
+          "_"
+        ],
+        "answers": {
+          "1": "Network Interface\\Bytes Total/Sec"
+        }
+      },
+      {
+        "cells": [
+          "The delay typically incurred in the processing of network data.",
+          "_"
+        ],
+        "answers": {
+          "1": "Latency"
+        }
+      },
+      {
+        "cells": [
+          "Occurs when the data flow in a connection is not consistent; that is, it increases and decreases in no discernable pattern.",
+          "_"
+        ],
+        "answers": {
+          "1": "Jitter"
+        }
+      },
+      {
+        "cells": [
+          "Supports plaintext authentication with MD5 or SHA with no encryption but provides GET BULK.",
+          "_"
+        ],
+        "answers": {
+          "1": "SNMPv2"
+        }
+      },
+      {
+        "cells": [
+          "Sent by SNMP agents to the NMS if a problem occurs.",
+          "_"
+        ],
+        "answers": {
+          "1": "SNMP trap"
+        }
+      },
+      {
+        "cells": [
+          "Identifier mechanism standardized by the International Telecommunications Union (ITU) and ISO/IEC for naming any object, concept, or “thing” with a globally unambiguous persistent name.",
+          "_"
+        ],
+        "answers": {
+          "1": "Object identifiers (OIDs)"
+        }
+      },
+      {
+        "cells": [
+          "Hierarchical structure into which SNMP OIDs are organized.",
+          "_"
+        ],
+        "answers": {
+          "1": "Management information bases (MIBs)"
+        }
+      },
+      {
+        "cells": [
+          "Refers to the standard level of performance of a certain device or to the normal operating capacity for your whole network.",
+          "_"
+        ],
+        "answers": {
+          "1": "Baseline"
+        }
+      },
+      {
+        "cells": [
+          "Centralizes and stores log messages and can even time-stamp and sequence them.",
+          "_"
+        ],
+        "answers": {
+          "1": "Syslog"
+        }
+      },
+      {
+        "cells": [
+          "Provides real-time analysis of security alerts generated by network hardware and applications.",
+          "_"
+        ],
+        "answers": {
+          "1": "SIEM"
+        }
+      },
+      {
+        "cells": [
+          "Errors that mean packets have been damaged.",
+          "_"
+        ],
+        "answers": {
+          "1": "CRC errors"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": 15,
+    "type": "table",
+    "random_order": false,
+    "has_images": false,
+    "prompt": "Complete the table by filling in the appropriate plan of which the given step is a part. Choose from: A=Change management plan, B=Incident response plan, C=Disaster recovery plan, D=Business continuity plan, E=System life-cycle plan.",
+    "header": [
+      "Step",
+      "Plan"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "Utilization of three network interfaces on the DNS server",
+          "_"
+        ],
+        "answers": {
+          "1": "Business continuity plan"
+        }
+      },
+      {
+        "cells": [
+          "Phased introductions of security patches",
+          "_"
+        ],
+        "answers": {
+          "1": "Change management plan"
+        }
+      },
+      {
+        "cells": [
+          "Degaussing of all discarded hard drives",
+          "_"
+        ],
+        "answers": {
+          "1": "System life cycle plan"
+        }
+      },
+      {
+        "cells": [
+          "Security issue escalation list",
+          "_"
+        ],
+        "answers": {
+          "1": "Incident response plan"
+        }
+      },
+      {
+        "cells": [
+          "System recovery priority chart",
+          "_"
+        ],
+        "answers": {
+          "1": "Disaster recovery plan"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": 16,
+    "type": "table",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Complete the table by filling in the appropriate term for each definition.",
+    "header": [
+      "Definition",
+      "Term"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "Technique used to spread work out to multiple computers, network links, or other devices",
+          "_"
+        ],
+        "answers": {
+          "1": "Load balancing"
+        }
+      },
+      {
+        "cells": [
+          "Allows multiple network interfaces to be placed into a team for the purposes of bandwidth aggregation",
+          "_"
+        ],
+        "answers": {
+          "1": "NIC teaming"
+        }
+      },
+      {
+        "cells": [
+          "Devices that can immediately supply power from a battery backup when a loss of power is detected",
+          "_"
+        ],
+        "answers": {
+          "1": "UPS"
+        }
+      },
+      {
+        "cells": [
+          "A leased facility that contains all the resources needed for full operation",
+          "_"
+        ],
+        "answers": {
+          "1": "Hot site"
+        }
+      },
+      {
+        "cells": [
+          "A Cisco proprietary FHRP",
+          "_"
+        ],
+        "answers": {
+          "1": "HSRP"
+        }
+      }
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "________ clouds are owned and managed by an organization.",
+    "blanks": [
+      "Private"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "AWS, Microsoft Azure, and Rackspace are examples of ________________________.",
+    "blanks": [
+      "Infrastructure as a service (IaaS)"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "___________ and orchestration define configuration, management, and the coordination of cloud operations.",
+    "blanks": [
+      "Automation"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "____________ are used to create repeatable tasks.",
+    "blanks": [
+      "Playbooks"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "__________ allows you to add cloud services such as storage and compute on demand, often in seconds or minutes.",
+    "blanks": [
+      "Elasticity"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "___________ is a platform that supports multiple tenants at the same time.",
+    "blanks": [
+      "Multitenancy"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "_________ is a method of encapsulating layer 2 traffic inside an IP packet for data center scalability.",
+    "blanks": [
+      "VXLAN"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "___________________ is another name for using virtualization to provide services.",
+    "blanks": [
+      "Cloud computing"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "_______________ assumes that no user or device is trusted, even if they have previously authenticated.",
+    "blanks": [
+      "Zero trust architecture (ZTA)"
+    ]
+  },
+  {
+    "chapter": 17,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "__________________ is the managing and provisioning of resources through software instead of through manual processes.",
+    "blanks": [
+      "Infrastructure as code (IaC)"
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is step 3 of the seven-step troubleshooting model?",
+    "blanks": [
+      "Test the theory to determine a cause."
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is step 7 of the seven-step troubleshooting model?",
+    "blanks": [
+      "Document findings, actions, outcomes, and lessons learned."
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "How is crosstalk minimized in twisted-pair cabling?",
+    "blanks": [
+      "By twisting the wire pairs together."
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "If you plug a host into a switch port and the user cannot get to the server or other services they need to access despite a working link light, what could the problem be?",
+    "blanks": [
+      "IP addressing."
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is it called when a cable has two wires of a twisted pair connected to two wires from a different pair?",
+    "blanks": [
+      "Crossover."
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "When a signal moves through any medium, the medium itself will degrade the signal. What is this called?",
+    "blanks": [
+      "Attenuation."
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is step 4 of the seven-step troubleshooting model?",
+    "blanks": [
+      "Establish a plan of action to resolve the problem and identify potential effects."
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What is step 5 of the seven-step troubleshooting model?",
+    "blanks": [
+      "Implement the solution or escalate as necessary."
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What are some of the problems that, if determined, should be escalated?",
+    "blanks": [
+      "Routing problems."
+    ]
+  },
+  {
+    "chapter": 18,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What cable issues should you know and understand for network troubleshooting?",
+    "blanks": [
+      "Incorrect pinout, transceiver mismatch, crosstalk, and attenuation."
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What command can you type from a command prompt to see the hops a packet takes to get to a destination host?",
+    "blanks": [
+      "traceroute or tracert"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "What tool would you use to verify a complaint about a slow network?",
+    "blanks": [
+      "Throughput tester/bandwidth speed tester"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need your IP address, subnet mask, default gateway, and DNS information. What command will you type from a Windows command prompt?",
+    "blanks": [
+      "ipconfig /all"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to log in as a dumb terminal to a server or UNIX host and run programs. What application will you use?",
+    "blanks": [
+      "Telnet"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to add a route to your Windows server’s routing table. What command will you use?",
+    "blanks": [
+      "route"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You want to log into a server and transfer files. What application will you use?",
+    "blanks": [
+      "FTP"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You need to check your name-resolution information on your host. What command will you type from the command prompt?",
+    "blanks": [
+      "nslookup"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You want to use netstat, but you want to see only the IP address, not the names of the hosts. Which modifier will you use?",
+    "blanks": [
+      "netstat -n"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "You want the IP configuration on a UNIX host. What command will you type at the command prompt?",
+    "blanks": [
+      "ifconfig"
+    ]
+  },
+  {
+    "chapter": 19,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Which Windows command will show you the routing table of your host or server?",
+    "blanks": [
+      "route print"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "A _______ is a perceived danger to an organization.",
+    "blanks": [
+      "Threat"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "_______ is the term used to describe the potential damage to occur.",
+    "blanks": [
+      "Risk"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "_________ encryption uses the same key to encrypt, as to decrypt.",
+    "blanks": [
+      "Symmetrical"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "PKI uses _________ encryption to sign and encrypt information.",
+    "blanks": [
+      "Asymmetrical"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "_________ uses claims to authenticate a user to a service provider.",
+    "blanks": [
+      "Single-sign on"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "________ certificates require no initial setup of PKI infrastructure.",
+    "blanks": [
+      "Self-signed"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "The concept of only giving permissions to perform a function is considered the principle of ________ _________.",
+    "blanks": [
+      "Least privilege"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "______ is a security framework adopted by service providers to secure resources.",
+    "blanks": [
+      "IAM"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Windows Active Directory uses the ________ protocol to provide queries for objects.",
+    "blanks": [
+      "LDAP"
+    ]
+  },
+  {
+    "chapter": 20,
+    "type": "fill_blank",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "________ is a European Union (EU) law governing how consumer data can be used and protected.",
+    "blanks": [
+      "GDPR"
+    ]
+  },
+  {
+    "chapter": 21,
+    "type": "table",
+    "random_order": true,
+    "has_images": false,
+    "prompt": "Complete the table by filling in the appropriate term for each attack method.",
+    "header": [
+      "Attack method",
+      "Term"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "Disruption of service by an attacker",
+          "_"
+        ],
+        "answers": {
+          "1": "DoS"
+        }
+      },
+      {
+        "cells": [
+          "An indirect DoS attack",
+          "_"
+        ],
+        "answers": {
+          "1": "Reflective"
+        }
+      },
+      {
+        "cells": [
+          "A DoS attack that is carried out making a small request to a third party",
+          "_"
+        ],
+        "answers": {
+          "1": "Amplified"
+        }
+      },
+      {
+        "cells": [
+          "Disruption of service by many attackers",
+          "_"
+        ],
+        "answers": {
+          "1": "DDoS"
+        }
+      },
+      {
+        "cells": [
+          "Disruption of service because of theft of equipment",
+          "_"
+        ],
+        "answers": {
+          "1": "Physical DoS"
+        }
+      },
+      {
+        "cells": [
+          "Disruption of service due to a deliberate modification of firmware",
+          "_"
+        ],
+        "answers": {
+          "1": "Permanent DoS"
+        }
+      },
+      {
+        "cells": [
+          "An attack in which the threat actor eavesdrops and manipulates the conversation",
+          "_"
+        ],
+        "answers": {
+          "1": "On-path attack"
+        }
+      },
+      {
+        "cells": [
+          "A threat actor sends a malicious reply back for a DNS query",
+          "_"
+        ],
+        "answers": {
+          "1": "DNS spoofing"
+        }
+      },
+      {
+        "cells": [
+          "Access to a VLAN is attempted by double tagging the frame",
+          "_"
+        ],
+        "answers": {
+          "1": "VLAN hopping"
+        }
+      },
+      {
+        "cells": [
+          "Client receives a malicious DNS entry along with their IP and subnet mask",
+          "_"
+        ],
+        "answers": {
+          "1": "Rogue DHCP"
+        }
+      },
+      {
+        "cells": [
+          "A threat actor duplicates an SSID to intercept wireless traffic",
+          "_"
+        ],
+        "answers": {
+          "1": "Evil Twin"
+        }
+      }
+    ]
+  }
+]
