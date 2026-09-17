@@ -14,8 +14,8 @@ type imageSet struct {
 	paths map[string]string
 }
 
-func (s imageSet) render(det imgview.Detector, filename string) string {
+func (s imageSet) render(det imgview.Detector, filename string, maxCols, maxRows int) string {
 	var b strings.Builder
-	_ = det.Render(&b, s.bytes[filename], s.paths[filename])
+	_ = det.Render(&b, s.bytes[filename], s.paths[filename], maxCols, maxRows)
 	return b.String()
 }

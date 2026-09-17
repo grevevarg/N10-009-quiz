@@ -55,12 +55,14 @@ func newChapterSet(chapters []int) chapterSet {
 // MultiChoiceForChapters returns a presentation-ordered copy of the
 // multi-choice questions belonging to the selected chapters.
 //
-// Ordering rule: consecutive questions from the same chapter that share
-// random_order=false are kept together, in their original relative order
-// (some chapters use several JSON entries to represent one narrative, e.g.
-// exhibit-based questions that build on each other); everything else is
-// shuffled freely across chapters. This mirrors the row-order rule applied
-// to table questions below.
+// Chapters are never interleaved: each selected chapter's questions stay
+// together as one contiguous run (though which chapter's run comes first,
+// second, etc. is itself shuffled). Within a chapter's own run, consecutive
+// questions sharing random_order=false are kept together in their original
+// relative order (some chapters use several JSON entries to represent one
+// narrative, e.g. exhibit-based questions that build on each other);
+// everything else shuffles freely within that chapter. This mirrors the
+// row-order rule applied to table questions below.
 func (b *Bank) MultiChoiceForChapters(chapters []int, rng *rand.Rand) []model.MultiChoiceQuestion {
 	set := newChapterSet(chapters)
 	var selected []model.MultiChoiceQuestion
@@ -69,11 +71,10 @@ func (b *Bank) MultiChoiceForChapters(chapters []int, rng *rand.Rand) []model.Mu
 			selected = append(selected, q)
 		}
 	}
-	blocks := groupFixedBlocks(len(selected), func(i int) (int, bool) {
-		return selected[i].Chapter, selected[i].RandomOrder
-	})
 	out := make([]model.MultiChoiceQuestion, 0, len(selected))
-	for _, idx := range shuffleBlocks(blocks, rng) {
+	for _, idx := range shuffleWithinChapters(len(selected), func(i int) (int, bool) {
+		return selected[i].Chapter, selected[i].RandomOrder
+	}, rng) {
 		out = append(out, selected[idx])
 	}
 	return out
@@ -114,14 +115,65 @@ func cloneWithShuffledRows(q model.WrittenLabQuestion, rng *rand.Rand) model.Wri
 }
 
 func reorder(qs []model.WrittenLabQuestion, rng *rand.Rand) []model.WrittenLabQuestion {
-	blocks := groupFixedBlocks(len(qs), func(i int) (int, bool) {
-		return qs[i].Chapter, qs[i].RandomOrder
-	})
 	out := make([]model.WrittenLabQuestion, 0, len(qs))
-	for _, idx := range shuffleBlocks(blocks, rng) {
+	for _, idx := range shuffleWithinChapters(len(qs), func(i int) (int, bool) {
+		return qs[i].Chapter, qs[i].RandomOrder
+	}, rng) {
 		out = append(out, qs[idx])
 	}
 	return out
+}
+
+// shuffleWithinChapters builds the presentation order for n items,
+// grouped by chapter: chapters stay whole and non-interleaved (their
+// relative order against each other is shuffled), and within each
+// chapter's own run, groupFixedBlocks/shuffleBlocks applies as before.
+func shuffleWithinChapters(n int, at func(i int) (chapter int, randomOrder bool), rng *rand.Rand) []int {
+	chapterBlocks := splitByChapter(n, func(i int) int {
+		chapter, _ := at(i)
+		return chapter
+	})
+
+	chapterOrder := make([]int, len(chapterBlocks))
+	for i := range chapterOrder {
+		chapterOrder[i] = i
+	}
+	rng.Shuffle(len(chapterOrder), func(i, j int) { chapterOrder[i], chapterOrder[j] = chapterOrder[j], chapterOrder[i] })
+
+	out := make([]int, 0, n)
+	for _, ci := range chapterOrder {
+		block := chapterBlocks[ci]
+		subBlocks := groupFixedBlocks(len(block), func(k int) (int, bool) {
+			return at(block[k])
+		})
+		for _, localIdx := range shuffleBlocks(subBlocks, rng) {
+			out = append(out, block[localIdx])
+		}
+	}
+	return out
+}
+
+// splitByChapter partitions [0, n) into contiguous per-chapter runs, in
+// the order chapters first appear. The question banks are already stored
+// chapter-ascending and filtering never reorders them, so a chapter's
+// entries are always contiguous here.
+func splitByChapter(n int, chapterOf func(i int) int) [][]int {
+	var blocks [][]int
+	i := 0
+	for i < n {
+		ch := chapterOf(i)
+		j := i + 1
+		for j < n && chapterOf(j) == ch {
+			j++
+		}
+		block := make([]int, j-i)
+		for k := range block {
+			block[k] = i + k
+		}
+		blocks = append(blocks, block)
+		i = j
+	}
+	return blocks
 }
 
 // groupFixedBlocks partitions [0, n) into blocks: a run of consecutive

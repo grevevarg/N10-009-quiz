@@ -25,6 +25,11 @@ func TestLoadRealData(t *testing.T) {
 	if len(b.WrittenLab) != 121 {
 		t.Errorf("WrittenLab count = %d, want 121", len(b.WrittenLab))
 	}
+	for _, q := range b.MultiChoice {
+		if q.Explanation == "" {
+			t.Errorf("chapter %d question %q has no explanation", q.Chapter, q.Prompt)
+		}
+	}
 }
 
 func TestMultiChoiceForChapters_FiltersAndPreservesFixedBlocks(t *testing.T) {
@@ -39,6 +44,45 @@ func TestMultiChoiceForChapters_FiltersAndPreservesFixedBlocks(t *testing.T) {
 		if q.Chapter != 1 && q.Chapter != 5 {
 			t.Errorf("unexpected chapter %d leaked into selection", q.Chapter)
 		}
+	}
+}
+
+func TestMultiChoiceForChapters_ChaptersNeverInterleave(t *testing.T) {
+	b := loadRealBank(t)
+
+	for seed := int64(0); seed < 30; seed++ {
+		rng := rand.New(rand.NewSource(seed))
+		got := b.MultiChoiceForChapters([]int{1, 5, 9}, rng)
+
+		// Once we've moved off a chapter, we should never see it again --
+		// otherwise chapters are interleaving instead of running as
+		// separate contiguous blocks.
+		seenChapters := map[int]bool{}
+		prev := 0
+		for i, q := range got {
+			if q.Chapter != prev {
+				if seenChapters[q.Chapter] {
+					t.Fatalf("seed %d: chapter %d reappeared at index %d after another chapter started -- chapters are interleaving",
+						seed, q.Chapter, i)
+				}
+				seenChapters[q.Chapter] = true
+				prev = q.Chapter
+			}
+		}
+	}
+}
+
+func TestMultiChoiceForChapters_ChapterOrderItselfShuffles(t *testing.T) {
+	b := loadRealBank(t)
+
+	firstChapterSeen := map[int]bool{}
+	for seed := int64(0); seed < 30; seed++ {
+		rng := rand.New(rand.NewSource(seed))
+		got := b.MultiChoiceForChapters([]int{1, 5, 9}, rng)
+		firstChapterSeen[got[0].Chapter] = true
+	}
+	if len(firstChapterSeen) < 2 {
+		t.Error("chapter block order never varied across 30 seeds -- expected the chapters themselves to still shuffle relative to each other")
 	}
 }
 

@@ -41,7 +41,7 @@ func run() error {
 	imgDet := imgview.Detect()
 
 	app := tui.NewApp(bank, imageBytes, imagePaths, imgDet)
-	p := tea.NewProgram(app)
+	p := tea.NewProgram(app, tea.WithAltScreen())
 	_, err = p.Run()
 	return err
 }

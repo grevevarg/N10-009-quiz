@@ -59,6 +59,7 @@ type MultiChoiceQuestion struct {
 	Prompt      string            `json:"prompt"`
 	Options     map[string]string `json:"options"`
 	Correct     []string          `json:"correct"`
+	Explanation string            `json:"explanation"`
 }
 
 // IsCorrect reports whether the given internal option key is an accepted

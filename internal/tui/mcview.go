@@ -27,13 +27,13 @@ type mcModel struct {
 	imgDet      imgview.Detector
 }
 
-func newMCModel(q model.MultiChoiceQuestion, rng *rand.Rand, imgDet imgview.Detector, images imageSet) mcModel {
+func newMCModel(q model.MultiChoiceQuestion, rng *rand.Rand, imgDet imgview.Detector, images imageSet, maxCols, maxRows int) mcModel {
 	keys := q.OptionKeys()
 	rng.Shuffle(len(keys), func(i, j int) { keys[i], keys[j] = keys[j], keys[i] })
 
 	m := mcModel{q: q, displayKeys: keys, imgDet: imgDet}
 	if q.HasImages {
-		m.renderedImg = images.render(imgDet, q.Image)
+		m.renderedImg = images.render(imgDet, q.Image, maxCols, maxRows)
 	}
 	return m
 }
@@ -49,7 +49,8 @@ func (m mcModel) Update(msg tea.Msg) (mcModel, tea.Cmd) {
 	if m.revealed {
 		switch keyMsg.String() {
 		case "enter", " ":
-			return m, func() tea.Msg { return mcDoneMsg{record: m.toRecord()} }
+			done := func() tea.Msg { return mcDoneMsg{record: m.toRecord()} }
+			return m, tea.Batch(done, tea.ClearScreen)
 		}
 		return m, nil
 	}
@@ -66,11 +67,13 @@ func (m mcModel) Update(msg tea.Msg) (mcModel, tea.Cmd) {
 	case "enter", " ":
 		m.pickedKey = m.displayKeys[m.cursor]
 		m.revealed = true
+		return m, tea.ClearScreen
 	default:
 		if letterIdx := strings.IndexByte(displayLetters, upperByte(keyMsg.String())); letterIdx >= 0 && letterIdx < len(m.displayKeys) {
 			m.cursor = letterIdx
 			m.pickedKey = m.displayKeys[letterIdx]
 			m.revealed = true
+			return m, tea.ClearScreen
 		}
 	}
 	return m, nil
@@ -127,9 +130,9 @@ func (m mcModel) View() string {
 
 		switch {
 		case m.revealed && m.q.IsCorrect(key):
-			line = correctStyle.Render(line + "  <- correct")
+			line = correctStyle.Render("  " + line + "  <- correct")
 		case m.revealed && key == m.pickedKey:
-			line = incorrectStyle.Render(line + "  <- your answer")
+			line = incorrectStyle.Render("  " + line + "  <- your answer")
 		case i == m.cursor:
 			line = selectedStyle.Render("> " + line)
 		default:
@@ -141,15 +144,16 @@ func (m mcModel) View() string {
 
 	b.WriteString("\n")
 	if !m.revealed {
-		b.WriteString(helpStyle.Render("up/down or A-F to pick, enter to confirm"))
+		b.WriteString(helpStyle.Render("up/down or A-F to pick, enter or space to confirm"))
 	} else {
 		verdict := incorrectStyle.Render("Incorrect")
 		if m.q.IsCorrect(m.pickedKey) {
 			verdict = correctStyle.Render("Correct!")
 		}
 		b.WriteString(verdict)
+		b.WriteString(explanationStyle.Render(m.q.Explanation))
 		b.WriteString("\n")
-		b.WriteString(helpStyle.Render("press enter to continue"))
+		b.WriteString(helpStyle.Render("press enter or space to continue"))
 	}
 	return b.String()
 }

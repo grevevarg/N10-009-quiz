@@ -23,7 +23,7 @@ type fbModel struct {
 	renderedImg string
 }
 
-func newFBModel(q model.WrittenLabQuestion, imgDet imgview.Detector, images imageSet) fbModel {
+func newFBModel(q model.WrittenLabQuestion, imgDet imgview.Detector, images imageSet, maxCols, maxRows int) fbModel {
 	inputs := make([]textinput.Model, len(q.Blanks))
 	for i := range inputs {
 		ti := textinput.New()
@@ -38,7 +38,7 @@ func newFBModel(q model.WrittenLabQuestion, imgDet imgview.Detector, images imag
 
 	m := fbModel{q: q, inputs: inputs}
 	if q.HasImages {
-		m.renderedImg = images.render(imgDet, q.Image)
+		m.renderedImg = images.render(imgDet, q.Image, maxCols, maxRows)
 	}
 	return m
 }
@@ -52,8 +52,9 @@ func (m fbModel) Update(msg tea.Msg) (fbModel, tea.Cmd) {
 	}
 
 	if m.revealed {
-		if keyMsg.String() == "enter" {
-			return m, func() tea.Msg { return fbDoneMsg{record: m.toRecord()} }
+		if s := keyMsg.String(); s == "enter" || s == " " {
+			done := func() tea.Msg { return fbDoneMsg{record: m.toRecord()} }
+			return m, tea.Batch(done, tea.ClearScreen)
 		}
 		return m, nil
 	}
@@ -71,7 +72,7 @@ func (m fbModel) Update(msg tea.Msg) (fbModel, tea.Cmd) {
 			return m, nil
 		}
 		m.grade()
-		return m, nil
+		return m, tea.ClearScreen
 	}
 
 	var cmd tea.Cmd
@@ -155,7 +156,7 @@ func (m fbModel) View() string {
 	if !m.revealed {
 		b.WriteString(helpStyle.Render("type your answer(s), tab/enter to move between blanks, enter on the last one to submit"))
 	} else {
-		b.WriteString(helpStyle.Render("press enter to continue"))
+		b.WriteString(helpStyle.Render("press enter or space to continue"))
 	}
 	return b.String()
 }

@@ -7,6 +7,7 @@ import (
 	"math/rand"
 
 	tea "github.com/charmbracelet/bubbletea"
+	"github.com/charmbracelet/lipgloss"
 
 	"github.com/grevevarg/N10-009-quiz/internal/imgview"
 	"github.com/grevevarg/N10-009-quiz/internal/model"
@@ -78,22 +79,22 @@ func (a App) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		}
 	case chaptersConfirmedMsg:
 		a.startQuiz(msg.chapters)
-		return a, nil
+		return a, tea.ClearScreen
 	case mcDoneMsg:
 		a.records = append(a.records, msg.record)
 		a.mcIdx++
 		a.advance()
-		return a, nil
+		return a, tea.ClearScreen
 	case fbDoneMsg:
 		a.records = append(a.records, msg.record)
 		a.fbIdx++
 		a.advance()
-		return a, nil
+		return a, tea.ClearScreen
 	case tblQuestionDoneMsg:
 		a.records = append(a.records, msg.records...)
 		a.tblIdx++
 		a.advance()
-		return a, nil
+		return a, tea.ClearScreen
 	}
 
 	var cmd tea.Cmd
@@ -130,23 +131,24 @@ func (a *App) advance() {
 // enterPhase sets up the active sub-model for a.phase, skipping forward
 // through phases/questions that have nothing left.
 func (a *App) enterPhase() {
+	cols, rows := a.imageBudget()
 	for {
 		switch a.phase {
 		case phaseMultiChoice:
 			if a.mcIdx < len(a.mcList) {
-				a.mc = newMCModel(a.mcList[a.mcIdx], a.rng, a.imgDet, a.images)
+				a.mc = newMCModel(a.mcList[a.mcIdx], a.rng, a.imgDet, a.images, cols, rows)
 				return
 			}
 			a.phase = phaseFillBlank
 		case phaseFillBlank:
 			if a.fbIdx < len(a.fbList) {
-				a.fb = newFBModel(a.fbList[a.fbIdx], a.imgDet, a.images)
+				a.fb = newFBModel(a.fbList[a.fbIdx], a.imgDet, a.images, cols, rows)
 				return
 			}
 			a.phase = phaseTable
 		case phaseTable:
 			if a.tblIdx < len(a.tblList) {
-				a.tbl = newTblModel(a.tblList[a.tblIdx], a.imgDet, a.images)
+				a.tbl = newTblModel(a.tblList[a.tblIdx], a.imgDet, a.images, cols, rows)
 				return
 			}
 			a.phase = phaseSummary
@@ -159,18 +161,72 @@ func (a *App) enterPhase() {
 	}
 }
 
+// imageBudget sizes the box a figure is allowed to occupy, based on the
+// current terminal size: capped at the same column width the rest of the
+// content wraps to, and at half the terminal's height so a tall image
+// never crowds the prompt/options/help text out of view below it.
+func (a App) imageBudget() (cols, rows int) {
+	width, height := a.width, a.height
+	if width <= 0 {
+		width = 80
+	}
+	if height <= 0 {
+		height = 24
+	}
+
+	cols = contentWidth
+	if width-4 < cols {
+		cols = width - 4
+	}
+	if cols < 20 {
+		cols = 20
+	}
+
+	rows = height / 2
+	if rows < 6 {
+		rows = 6
+	}
+	if rows > 24 {
+		rows = 24
+	}
+	return cols, rows
+}
+
 func (a App) View() string {
+	var content string
 	switch a.phase {
 	case phasePicker:
-		return a.picker.View()
+		content = a.picker.View()
 	case phaseMultiChoice:
-		return a.mc.View()
+		content = a.mc.View()
 	case phaseFillBlank:
-		return a.fb.View()
+		content = a.fb.View()
 	case phaseTable:
-		return a.tbl.View()
+		content = a.tbl.View()
 	case phaseSummary:
-		return a.summary.View()
+		content = a.summary.View()
 	}
-	return ""
+
+	// lipgloss.Place centers each line of a multi-line string independently
+	// based on that line's own width, which makes a left-aligned list (menu
+	// options, table rows) look staggered instead of centered as one block.
+	// Padding every line out to a uniform rectangle first keeps the internal
+	// layout left-aligned and lets Place center the block as a whole.
+	blockWidth := lipgloss.Width(content)
+	if blockWidth < contentWidth {
+		blockWidth = contentWidth
+	}
+	block := lipgloss.NewStyle().Width(blockWidth).Render(content)
+
+	frame := block
+	if a.width > 0 && a.height > 0 {
+		frame = lipgloss.Place(a.width, a.height, lipgloss.Center, lipgloss.Center, block)
+	}
+
+	// Every frame starts by dropping any previously placed inline image
+	// (Kitty tracks placements independent of the text grid, so a screen
+	// clear alone doesn't reliably clear a stale one) -- see imgview.ClearCmd.
+	// Prepended after centering so the escape sequence itself never affects
+	// the width math above.
+	return a.imgDet.ClearCmd() + frame
 }

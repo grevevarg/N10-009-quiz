@@ -32,10 +32,10 @@ type tblModel struct {
 	renderedImg string
 }
 
-func newTblModel(q model.WrittenLabQuestion, imgDet imgview.Detector, images imageSet) tblModel {
+func newTblModel(q model.WrittenLabQuestion, imgDet imgview.Detector, images imageSet, maxCols, maxRows int) tblModel {
 	m := tblModel{q: q, widths: columnWidths(q)}
 	if q.HasImages {
-		m.renderedImg = images.render(imgDet, q.Image)
+		m.renderedImg = images.render(imgDet, q.Image, maxCols, maxRows)
 	}
 	m.startRow(0)
 	return m
@@ -99,12 +99,14 @@ func (m tblModel) Update(msg tea.Msg) (tblModel, tea.Cmd) {
 	}
 
 	if m.revealed {
-		if keyMsg.String() == "enter" {
+		if s := keyMsg.String(); s == "enter" || s == " " {
 			next := m.rowIdx + 1
 			if next >= len(m.q.Rows) {
-				return m, func() tea.Msg { return tblQuestionDoneMsg{records: m.records} }
+				done := func() tea.Msg { return tblQuestionDoneMsg{records: m.records} }
+				return m, tea.Batch(done, tea.ClearScreen)
 			}
 			m.startRow(next)
+			return m, tea.ClearScreen
 		}
 		return m, nil
 	}
@@ -114,6 +116,7 @@ func (m tblModel) Update(msg tea.Msg) (tblModel, tea.Cmd) {
 	if len(m.inputs) == 0 {
 		if keyMsg.String() == "enter" {
 			m.grade()
+			return m, tea.ClearScreen
 		}
 		return m, nil
 	}
@@ -131,7 +134,7 @@ func (m tblModel) Update(msg tea.Msg) (tblModel, tea.Cmd) {
 			return m, nil
 		}
 		m.grade()
-		return m, nil
+		return m, tea.ClearScreen
 	}
 
 	var cmd tea.Cmd
@@ -213,9 +216,9 @@ func (m tblModel) View() string {
 	b.WriteString("\n")
 	switch {
 	case m.rowIdx >= len(m.q.Rows):
-		b.WriteString(helpStyle.Render("press enter to continue"))
+		b.WriteString(helpStyle.Render("press enter or space to continue"))
 	case m.revealed:
-		b.WriteString(helpStyle.Render("press enter to continue"))
+		b.WriteString(helpStyle.Render("press enter or space to continue"))
 	default:
 		b.WriteString(helpStyle.Render("fill in the blank(s), tab/enter to move, enter on the last one to submit"))
 	}
