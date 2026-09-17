@@ -17,7 +17,7 @@ import (
 	"github.com/grevevarg/N10-009-quiz/internal/tui"
 )
 
-//go:embed multichoice.json writtenlab.json images
+//go:embed data/multichoice.json data/writtenlab.json images
 var dataFS embed.FS
 
 func main() {

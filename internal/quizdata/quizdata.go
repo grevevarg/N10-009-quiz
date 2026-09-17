@@ -17,10 +17,10 @@ type Bank struct {
 	WrittenLab  []model.WrittenLabQuestion
 }
 
-// Load parses multichoice.json and writtenlab.json out of the given
-// filesystem (the embed.FS built in main).
+// Load parses data/multichoice.json and data/writtenlab.json out of the
+// given filesystem (the embed.FS built in main).
 func Load(f fs.FS) (*Bank, error) {
-	mcRaw, err := fs.ReadFile(f, "multichoice.json")
+	mcRaw, err := fs.ReadFile(f, "data/multichoice.json")
 	if err != nil {
 		return nil, fmt.Errorf("reading multichoice.json: %w", err)
 	}
@@ -29,7 +29,7 @@ func Load(f fs.FS) (*Bank, error) {
 		return nil, fmt.Errorf("parsing multichoice.json: %w", err)
 	}
 
-	wlRaw, err := fs.ReadFile(f, "writtenlab.json")
+	wlRaw, err := fs.ReadFile(f, "data/writtenlab.json")
 	if err != nil {
 		return nil, fmt.Errorf("reading writtenlab.json: %w", err)
 	}
