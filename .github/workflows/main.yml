@@ -9,7 +9,7 @@ on:
       - "main.go"
       - "go.mod"
       - "go.sum"
-      - ".github/workflows/build.yml"
+      - ".github/workflows/main.yml"
   pull_request:
     branches: [main]
     paths:
@@ -18,7 +18,7 @@ on:
       - "main.go"
       - "go.mod"
       - "go.sum"
-      - ".github/workflows/build.yml"
+      - ".github/workflows/main.yml"
   workflow_dispatch:
 
 jobs:
@@ -26,10 +26,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v7
         with:
           go-version: "1.27"
 
@@ -45,33 +45,57 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: linux
-            arch: amd64
+          - goos: linux
+            goarch: amd64
+            name: linux-amd64
             ext: ""
-          - os: darwin
-            arch: arm64
+          - goos: darwin
+            goarch: arm64
+            name: macos-arm64
             ext: ""
-          - os: windows
-            arch: amd64
+          - goos: windows
+            goarch: amd64
+            name: windows-amd64
             ext: ".exe"
     steps:
       - name: Check out repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v7
         with:
           go-version: "1.27"
 
       - name: Build quiztia
         env:
-          GOOS: ${{ matrix.os }}
-          GOARCH: ${{ matrix.arch }}
+          GOOS: ${{ matrix.goos }}
+          GOARCH: ${{ matrix.goarch }}
           CGO_ENABLED: "0"
-        run: go build -o "dist/quiztia-${{ matrix.os }}-${{ matrix.arch }}${{ matrix.ext }}" .
+        run: go build -o "dist/quiztia-${{ matrix.name }}${{ matrix.ext }}" .
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
-          name: quiztia-${{ matrix.os }}-${{ matrix.arch }}
-          path: dist/quiztia-${{ matrix.os }}-${{ matrix.arch }}${{ matrix.ext }}
+          name: quiztia-${{ matrix.name }}
+          path: dist/quiztia-${{ matrix.name }}${{ matrix.ext }}
+
+  release:
+    needs: build
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download all build artifacts
+        uses: actions/download-artifact@v8
+        with:
+          path: dist
+          merge-multiple: true
+
+      - name: Publish rolling "latest" release
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: latest
+          name: Latest build
+          make_latest: true
+          files: dist/*
