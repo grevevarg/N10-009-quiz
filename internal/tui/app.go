@@ -5,6 +5,7 @@ package tui
 
 import (
 	"math/rand"
+	"strings"
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
@@ -30,6 +31,7 @@ type App struct {
 	images imageSet
 	imgDet imgview.Detector
 	rng    *rand.Rand
+	banner string
 
 	phase         phase
 	width, height int
@@ -55,16 +57,34 @@ type App struct {
 // NewApp builds the initial application model. imageBytes maps figure
 // filenames (e.g. "6.png") to their raw embedded bytes, and imagePaths maps
 // the same filenames to where they were unpacked on disk (used only for the
-// no-inline-image-support fallback message).
-func NewApp(bank *quizdata.Bank, imageBytes map[string][]byte, imagePaths map[string]string, imgDet imgview.Detector) App {
+// no-inline-image-support fallback message). banner is the ASCII art title
+// shown above the chapter picker.
+func NewApp(bank *quizdata.Bank, imageBytes map[string][]byte, imagePaths map[string]string, imgDet imgview.Detector, banner string) App {
 	return App{
 		bank:   bank,
 		images: imageSet{bytes: imageBytes, paths: imagePaths},
 		imgDet: imgDet,
 		rng:    rand.New(rand.NewSource(rand.Int63())),
+		banner: trimBlankLines(banner),
 		phase:  phasePicker,
 		picker: newPickerModel(),
 	}
+}
+
+// trimBlankLines drops leading/trailing whitespace-only lines from a
+// multi-line string while leaving each remaining line's own content (and
+// its meaningful indentation, e.g. ASCII art) untouched.
+func trimBlankLines(s string) string {
+	lines := strings.Split(s, "\n")
+	start := 0
+	for start < len(lines) && strings.TrimSpace(lines[start]) == "" {
+		start++
+	}
+	end := len(lines)
+	for end > start && strings.TrimSpace(lines[end-1]) == "" {
+		end--
+	}
+	return strings.Join(lines[start:end], "\n")
 }
 
 func (a App) Init() tea.Cmd { return nil }
@@ -196,7 +216,7 @@ func (a App) View() string {
 	var content string
 	switch a.phase {
 	case phasePicker:
-		content = a.picker.View()
+		content = a.banner + "\n\n" + a.picker.View()
 	case phaseMultiChoice:
 		content = a.mc.View()
 	case phaseFillBlank:

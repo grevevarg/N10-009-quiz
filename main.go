@@ -17,7 +17,7 @@ import (
 	"github.com/grevevarg/N10-009-quiz/internal/tui"
 )
 
-//go:embed data/multichoice.json data/writtenlab.json images
+//go:embed data/multichoice.json data/writtenlab.json data/coolascii.txt images
 var dataFS embed.FS
 
 func main() {
@@ -38,9 +38,14 @@ func run() error {
 		return err
 	}
 
+	bannerRaw, err := fs.ReadFile(dataFS, "data/coolascii.txt")
+	if err != nil {
+		return fmt.Errorf("reading banner: %w", err)
+	}
+
 	imgDet := imgview.Detect()
 
-	app := tui.NewApp(bank, imageBytes, imagePaths, imgDet)
+	app := tui.NewApp(bank, imageBytes, imagePaths, imgDet, string(bannerRaw))
 	p := tea.NewProgram(app, tea.WithAltScreen())
 	_, err = p.Run()
 	return err
