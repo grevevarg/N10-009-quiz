@@ -1,12 +1,12 @@
 # N10-009-quiz
 
-Terminal quiz app for studying the CompTIA Network+ (N10-009) exam. Practice tool for the textbook question banks — that's it.
+Terminal quiz app for studying the CompTIA Network+ (N10-009) exam. 
 
-Runs in your terminal. Not a website, not a GUI app.
+Runs in your terminal.
 
 ## 1. Get a terminal
 
-Any modern terminal works. If yours renders TUIs badly, use one of these:
+Most modern terminals works. If yours renders TUIs badly, use one of these:
 
 **Windows** — Windows Terminal
 ```
@@ -18,7 +18,7 @@ winget install Microsoft.WindowsTerminal
 brew install --cask iterm2
 ```
 
-**Linux** — Ghostty (or just use your existing terminal)
+**Linux** — Ghostty (or use your existing terminal as long as it supports Kitty Graphics Protocol)
 Install from: https://ghostty.org/download
 
 ## 2. Download and run
@@ -37,7 +37,7 @@ Run it from your terminal:
 ./quiztia-linux-amd64      # or the file you downloaded
 ```
 
-(macOS/Linux: `chmod +x` the file first if it won't execute.)
+(macOS/Linux: `chmod +x quiztia-macos-arm64` or `chmod +x quiztia-linux-amd64` the file first if it won't execute.)
 
 That's it. Follow the on-screen prompts.
 
